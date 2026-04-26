@@ -1,0 +1,1001 @@
+patient_id,n_allergies,allergies_connues,allergies_avec_reactions,classes_allergenes,severite_allergie_max,allergie_grave,n_traitements_anterieurs,historique_traitements,immunosuppression_anterieure,chirurgie_recente,dialyse,n_medicaments_concomitants,medicaments_concomitants,classes_therapeutiques,n_medicaments_risque_eleve,medicaments_risque_eleve,score_risque_interaction,polypharmacie,polymedicaments_haut_risque
+INT_00000,0,aucune,aucune,aucune,aucune,0,3,anticoagulants oraux (warfarine/DOAC) | greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00001,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | sertraline | clopidogrel,antidépresseur ISRS | anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,7,1,0
+INT_00002,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00003,2,tétracyclines | aluminium,tétracyclines: photosensibilisation | aluminium: granulome au site injection,antibiotique | adjuvant vaccinal,légère,0,2,chimiothérapie (carboplatine/paclitaxel) | chirurgie majeure récente (<6 mois),1,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00004,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00005,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,clopidogrel | amiodarone | ciclosporine | sertraline | amlodipine,immunosuppresseur calci | antiagrégant plaquettaire | antihypertenseur ICC | antidépresseur ISRS | antiarythmique classe III,2,amiodarone | ciclosporine,11,1,1
+INT_00006,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,4,warfarine | ramipril | clopidogrel | amiodarone,antihypertenseur IEC | antiarythmique classe III | anticoagulant AVK | antiagrégant plaquettaire,2,warfarine | amiodarone,9,1,1
+INT_00007,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00008,2,néomycine | sulfamides,néomycine: dermatite de contact | sulfamides: éruption cutanée maculo-papuleuse,antibiotique aminoglycoside | antibiotique,modérée,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,ramipril | furosémide,antihypertenseur IEC | diurétique de l'anse,0,aucun,3,0,0
+INT_00009,0,aucune,aucune,aucune,aucune,0,3,chimiothérapie (carboplatine/paclitaxel) | radiothérapie thoracique | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,3,ciclosporine | méthotrexate | ramipril,antihypertenseur IEC | immunosuppresseur calci | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,7,1,1
+INT_00010,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00011,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,furosémide | atorvastatine,hypolipémiant statine | diurétique de l'anse,0,aucun,4,0,0
+INT_00012,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,amlodipine | warfarine | oméprazole | metformine,antidiabétique biguanide | anticoagulant AVK | IPP | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00013,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00014,2,œufs | néomycine,œufs: anaphylaxie systémique | néomycine: dermatite de contact,allergie alimentaire/excipient | antibiotique aminoglycoside,grave,1,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00015,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00016,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,4,ramipril | prednisone | sertraline | furosémide,antihypertenseur IEC | antidépresseur ISRS | corticoïde systémique | diurétique de l'anse,1,prednisone,8,1,0
+INT_00017,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,3,ramipril | méthotrexate | clopidogrel,antihypertenseur IEC | antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00018,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,chirurgie majeure récente (<6 mois) | immunosuppresseurs (azathioprine/ciclosporine),1,1,0,5,metformine | ramipril | méthotrexate | clopidogrel | warfarine,antidiabétique biguanide | antiagrégant plaquettaire | anticoagulant AVK | immunosuppresseur/DMARD | antihypertenseur IEC,2,méthotrexate | warfarine,10,1,1
+INT_00019,0,aucune,aucune,aucune,aucune,0,3,radiothérapie thoracique | antirétroviraux (cART) | biothérapie (anti-TNF/anti-IL),1,0,0,2,amiodarone | atorvastatine,hypolipémiant statine | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00020,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,2,ciclosporine | amiodarone,immunosuppresseur calci | antiarythmique classe III,2,ciclosporine | amiodarone,6,0,1
+INT_00021,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ramipril | prednisone | furosémide,antihypertenseur IEC | corticoïde systémique | diurétique de l'anse,1,prednisone,6,1,0
+INT_00022,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | chirurgie majeure récente (<6 mois),1,1,0,5,sertraline | ciclosporine | méthotrexate | lévothyroxine | atorvastatine,hypolipémiant statine | immunosuppresseur calci | antidépresseur ISRS | immunosuppresseur/DMARD | hormone thyroïdienne,2,ciclosporine | méthotrexate,11,1,1
+INT_00023,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00024,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,3,amlodipine | prednisone | méthotrexate,immunosuppresseur/DMARD | corticoïde systémique | antihypertenseur ICC,2,prednisone | méthotrexate,7,1,1
+INT_00025,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00026,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00027,2,gélatine | tétracyclines,gélatine: urticaire/angioedème | tétracyclines: photosensibilisation,excipient vaccinal | antibiotique,modérée,0,0,aucun,0,0,0,2,oméprazole | clopidogrel,antiagrégant plaquettaire | IPP,0,aucun,3,0,0
+INT_00028,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,4,ciclosporine | atorvastatine | amlodipine | warfarine,immunosuppresseur calci | anticoagulant AVK | antihypertenseur ICC | hypolipémiant statine,2,ciclosporine | warfarine,9,1,1
+INT_00029,0,aucune,aucune,aucune,aucune,0,2,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,atorvastatine | lévothyroxine,hypolipémiant statine | hormone thyroïdienne,0,aucun,3,0,0
+INT_00030,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | sertraline | ramipril,antihypertenseur IEC | antidépresseur ISRS | hormone thyroïdienne,0,aucun,4,1,0
+INT_00031,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,4,amiodarone | ciclosporine | clopidogrel | atorvastatine,antiagrégant plaquettaire | immunosuppresseur calci | antiarythmique classe III | hypolipémiant statine,2,amiodarone | ciclosporine,10,1,1
+INT_00032,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,4,lévothyroxine | clopidogrel | amlodipine | prednisone,corticoïde systémique | hormone thyroïdienne | antiagrégant plaquettaire | antihypertenseur ICC,1,prednisone,7,1,0
+INT_00033,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00034,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00035,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,2,warfarine | lévothyroxine,hormone thyroïdienne | anticoagulant AVK,1,warfarine,4,0,0
+INT_00036,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,3,prednisone | sertraline | oméprazole,IPP | antidépresseur ISRS | corticoïde systémique,1,prednisone,6,1,0
+INT_00037,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00038,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00039,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00040,0,aucune,aucune,aucune,aucune,0,3,corticothérapie longue durée (>6 mois) | greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,2,ciclosporine | méthotrexate,immunosuppresseur calci | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,6,0,1
+INT_00041,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,méthotrexate | amlodipine | lévothyroxine | furosémide,diurétique de l'anse | hormone thyroïdienne | antihypertenseur ICC | immunosuppresseur/DMARD,1,méthotrexate,7,1,0
+INT_00042,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00043,3,aluminium | céphalosporines | sulfamides,aluminium: granulome au site injection | céphalosporines: réaction croisée pénicilline | sulfamides: éruption cutanée maculo-papuleuse,adjuvant vaccinal | antibiotique bêta-lactamine | antibiotique,modérée,0,0,aucun,0,0,0,5,ciclosporine | ramipril | atorvastatine | metformine | oméprazole,antidiabétique biguanide | immunosuppresseur calci | hypolipémiant statine | IPP | antihypertenseur IEC,1,ciclosporine,8,1,0
+INT_00044,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,2,oméprazole | amlodipine,IPP | antihypertenseur ICC,0,aucun,2,0,0
+INT_00045,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00046,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00047,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,prednisone | clopidogrel | metformine | atorvastatine,antiagrégant plaquettaire | antidiabétique biguanide | hypolipémiant statine | corticoïde systémique,1,prednisone,8,1,0
+INT_00048,3,céphalosporines | œufs | AINS,céphalosporines: réaction croisée pénicilline | œufs: anaphylaxie systémique | AINS: bronchospasme/urticaire,antibiotique bêta-lactamine | allergie alimentaire/excipient | antidouleur/anti-inflammatoire,grave,1,2,anticoagulants oraux (warfarine/DOAC) | radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00049,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00050,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00051,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00052,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,prednisone | furosémide,corticoïde systémique | diurétique de l'anse,1,prednisone,5,0,0
+INT_00053,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,2,prednisone | warfarine,anticoagulant AVK | corticoïde systémique,2,prednisone | warfarine,6,0,1
+INT_00054,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | anticoagulants oraux (warfarine/DOAC),1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00055,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00056,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | corticothérapie longue durée (>6 mois),1,0,0,2,amlodipine | méthotrexate,immunosuppresseur/DMARD | antihypertenseur ICC,1,méthotrexate,4,0,0
+INT_00057,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00058,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00059,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,amlodipine | furosémide,diurétique de l'anse | antihypertenseur ICC,0,aucun,3,0,0
+INT_00060,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | méthotrexate,immunosuppresseur calci | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,6,0,1
+INT_00061,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,atorvastatine | prednisone,hypolipémiant statine | corticoïde systémique,1,prednisone,5,0,0
+INT_00062,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,2,chimiothérapie (carboplatine/paclitaxel) | greffe organe solide,1,0,0,5,amlodipine | oméprazole | ramipril | metformine | amiodarone,antidiabétique biguanide | IPP | antihypertenseur ICC | antihypertenseur IEC | antiarythmique classe III,1,amiodarone,7,1,0
+INT_00063,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00064,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00065,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,2,anticoagulants oraux (warfarine/DOAC) | antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00066,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00067,0,aucune,aucune,aucune,aucune,0,3,biothérapie (anti-TNF/anti-IL) | greffe organe solide | antirétroviraux (cART),1,0,0,2,clopidogrel | warfarine,anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,5,0,0
+INT_00068,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | ciclosporine,antidiabétique biguanide | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00069,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00070,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amlodipine | metformine,antidiabétique biguanide | antihypertenseur ICC,0,aucun,2,0,0
+INT_00071,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00072,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00073,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,3,atorvastatine | ciclosporine | ramipril,antihypertenseur IEC | hypolipémiant statine | immunosuppresseur calci,1,ciclosporine,6,1,0
+INT_00074,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00075,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,méthotrexate | ciclosporine,immunosuppresseur calci | immunosuppresseur/DMARD,2,méthotrexate | ciclosporine,6,0,1
+INT_00076,0,aucune,aucune,aucune,aucune,0,3,anticoagulants oraux (warfarine/DOAC) | radiothérapie thoracique | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,3,furosémide | warfarine | sertraline,antidépresseur ISRS | anticoagulant AVK | diurétique de l'anse,1,warfarine,7,1,0
+INT_00077,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,amiodarone | ramipril,antihypertenseur IEC | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00078,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00079,0,aucune,aucune,aucune,aucune,0,3,anticoagulants oraux (warfarine/DOAC) | chimiothérapie (carboplatine/paclitaxel) | biothérapie (anti-TNF/anti-IL),1,0,0,5,warfarine | furosémide | metformine | oméprazole | atorvastatine,antidiabétique biguanide | hypolipémiant statine | IPP | diurétique de l'anse | anticoagulant AVK,1,warfarine,9,1,0
+INT_00080,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,5,ramipril | prednisone | oméprazole | atorvastatine | clopidogrel,hypolipémiant statine | IPP | antiagrégant plaquettaire | corticoïde systémique | antihypertenseur IEC,1,prednisone,9,1,0
+INT_00081,3,latex | sulfamides | pénicilline,latex: urticaire de contact/anaphylaxie | sulfamides: éruption cutanée maculo-papuleuse | pénicilline: anaphylaxie IgE-médiée,matériau médical | antibiotique | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,2,warfarine | metformine,antidiabétique biguanide | anticoagulant AVK,1,warfarine,4,0,0
+INT_00082,2,céphalosporines | sulfamides,céphalosporines: réaction croisée pénicilline | sulfamides: éruption cutanée maculo-papuleuse,antibiotique bêta-lactamine | antibiotique,modérée,0,0,aucun,0,0,0,3,méthotrexate | prednisone | furosémide,diurétique de l'anse | corticoïde systémique | immunosuppresseur/DMARD,2,méthotrexate | prednisone,8,1,1
+INT_00083,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,atorvastatine | ramipril,antihypertenseur IEC | hypolipémiant statine,0,aucun,3,0,0
+INT_00084,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | furosémide | amlodipine,anticoagulant AVK | diurétique de l'anse | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00085,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,3,atorvastatine | amlodipine | oméprazole,hypolipémiant statine | IPP | antihypertenseur ICC,0,aucun,4,1,0
+INT_00086,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | anticoagulants oraux (warfarine/DOAC),1,0,0,3,ciclosporine | lévothyroxine | clopidogrel,immunosuppresseur calci | hormone thyroïdienne | antiagrégant plaquettaire,1,ciclosporine,6,1,0
+INT_00087,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,2,clopidogrel | oméprazole,IPP | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00088,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | biothérapie (anti-TNF/anti-IL),1,1,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00089,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | radiothérapie thoracique,0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00090,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00091,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | atorvastatine | furosémide,hypolipémiant statine | anticoagulant AVK | diurétique de l'anse,1,warfarine,7,1,0
+INT_00092,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,3,ramipril | oméprazole | sertraline,antihypertenseur IEC | antidépresseur ISRS | IPP,0,aucun,4,1,0
+INT_00093,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,5,metformine | méthotrexate | furosémide | atorvastatine | clopidogrel,antidiabétique biguanide | hypolipémiant statine | antiagrégant plaquettaire | diurétique de l'anse | immunosuppresseur/DMARD,1,méthotrexate,10,1,0
+INT_00094,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00095,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,4,warfarine | furosémide | ramipril | amlodipine,antihypertenseur IEC | anticoagulant AVK | diurétique de l'anse | antihypertenseur ICC,1,warfarine,7,1,0
+INT_00096,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00097,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00098,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00099,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,2,atorvastatine | méthotrexate,hypolipémiant statine | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00100,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,méthotrexate | oméprazole | amiodarone,antiarythmique classe III | IPP | immunosuppresseur/DMARD,2,méthotrexate | amiodarone,7,1,1
+INT_00101,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00102,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | corticothérapie longue durée (>6 mois),0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00103,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00104,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,3,sertraline | méthotrexate | lévothyroxine,hormone thyroïdienne | antidépresseur ISRS | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00105,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00106,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,metformine | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne,0,aucun,2,0,0
+INT_00107,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,2,oméprazole | prednisone,corticoïde systémique | IPP,1,prednisone,4,0,0
+INT_00108,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,sertraline | metformine | ciclosporine | amlodipine,antidiabétique biguanide | immunosuppresseur calci | antidépresseur ISRS | antihypertenseur ICC,1,ciclosporine,7,1,0
+INT_00109,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,ramipril | prednisone | ciclosporine | warfarine,antihypertenseur IEC | immunosuppresseur calci | anticoagulant AVK | corticoïde systémique,3,prednisone | ciclosporine | warfarine,10,1,1
+INT_00110,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amiodarone | lévothyroxine | prednisone,corticoïde systémique | hormone thyroïdienne | antiarythmique classe III,2,amiodarone | prednisone,7,1,1
+INT_00111,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00112,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00113,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,dialyse hémodialyse,0,0,1,2,ramipril | amiodarone,antihypertenseur IEC | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00114,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,prednisone | atorvastatine,hypolipémiant statine | corticoïde systémique,1,prednisone,5,0,0
+INT_00115,2,œufs | pénicilline,œufs: anaphylaxie systémique | pénicilline: anaphylaxie IgE-médiée,allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,1,radiothérapie thoracique,0,0,0,4,sertraline | atorvastatine | amlodipine | oméprazole,hypolipémiant statine | antidépresseur ISRS | IPP | antihypertenseur ICC,0,aucun,6,1,0
+INT_00116,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,3,antirétroviraux (cART) | chirurgie majeure récente (<6 mois) | biothérapie (anti-TNF/anti-IL),1,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00117,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,atorvastatine | furosémide,hypolipémiant statine | diurétique de l'anse,0,aucun,4,0,0
+INT_00118,2,néomycine | AINS,néomycine: dermatite de contact | AINS: bronchospasme/urticaire,antibiotique aminoglycoside | antidouleur/anti-inflammatoire,modérée,0,2,chimiothérapie (carboplatine/paclitaxel) | corticothérapie longue durée (>6 mois),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00119,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,3,metformine | ciclosporine | prednisone,antidiabétique biguanide | immunosuppresseur calci | corticoïde systémique,2,ciclosporine | prednisone,7,1,1
+INT_00120,3,pénicilline | AINS | sulfamides,pénicilline: anaphylaxie IgE-médiée | AINS: bronchospasme/urticaire | sulfamides: éruption cutanée maculo-papuleuse,antibiotique bêta-lactamine | antidouleur/anti-inflammatoire | antibiotique,grave,1,1,biothérapie (anti-TNF/anti-IL),1,0,0,3,ciclosporine | furosémide | lévothyroxine,immunosuppresseur calci | hormone thyroïdienne | diurétique de l'anse,1,ciclosporine,6,1,0
+INT_00121,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,clopidogrel | amlodipine,antiagrégant plaquettaire | antihypertenseur ICC,0,aucun,3,0,0
+INT_00122,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | chimiothérapie (carboplatine/paclitaxel),1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00123,2,œufs | AINS,œufs: anaphylaxie systémique | AINS: bronchospasme/urticaire,allergie alimentaire/excipient | antidouleur/anti-inflammatoire,grave,1,0,aucun,0,0,0,2,warfarine | metformine,antidiabétique biguanide | anticoagulant AVK,1,warfarine,4,0,0
+INT_00124,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,2,biothérapie (anti-TNF/anti-IL) | corticothérapie longue durée (>6 mois),1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00125,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00126,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,oméprazole | sertraline,antidépresseur ISRS | IPP,0,aucun,3,0,0
+INT_00127,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00128,0,aucune,aucune,aucune,aucune,0,2,anticoagulants oraux (warfarine/DOAC) | dialyse hémodialyse,0,0,1,3,lévothyroxine | amiodarone | atorvastatine,hypolipémiant statine | hormone thyroïdienne | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00129,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,3,ciclosporine | amiodarone | sertraline,immunosuppresseur calci | antidépresseur ISRS | antiarythmique classe III,2,ciclosporine | amiodarone,8,1,1
+INT_00130,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00131,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,2,antirétroviraux (cART) | corticothérapie longue durée (>6 mois),0,0,0,2,ciclosporine | amlodipine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00132,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00133,2,céphalosporines | AINS,céphalosporines: réaction croisée pénicilline | AINS: bronchospasme/urticaire,antibiotique bêta-lactamine | antidouleur/anti-inflammatoire,modérée,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00134,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,méthotrexate | metformine,antidiabétique biguanide | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00135,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00136,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | corticothérapie longue durée (>6 mois),1,0,0,3,lévothyroxine | ciclosporine | furosémide,immunosuppresseur calci | hormone thyroïdienne | diurétique de l'anse,1,ciclosporine,6,1,0
+INT_00137,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,3,sertraline | amlodipine | warfarine,antidépresseur ISRS | anticoagulant AVK | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00138,0,aucune,aucune,aucune,aucune,0,3,antirétroviraux (cART) | greffe organe solide | corticothérapie longue durée (>6 mois),1,0,0,2,warfarine | furosémide,anticoagulant AVK | diurétique de l'anse,1,warfarine,5,0,0
+INT_00139,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00140,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amlodipine | ciclosporine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00141,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,prednisone | atorvastatine | ramipril,antihypertenseur IEC | hypolipémiant statine | corticoïde systémique,1,prednisone,6,1,0
+INT_00142,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,2,warfarine | méthotrexate,anticoagulant AVK | immunosuppresseur/DMARD,2,warfarine | méthotrexate,6,0,1
+INT_00143,2,AINS | céphalosporines,AINS: bronchospasme/urticaire | céphalosporines: réaction croisée pénicilline,antidouleur/anti-inflammatoire | antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,amiodarone | metformine | ciclosporine,antidiabétique biguanide | immunosuppresseur calci | antiarythmique classe III,2,amiodarone | ciclosporine,7,1,1
+INT_00144,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00145,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,chimiothérapie (carboplatine/paclitaxel) | corticothérapie longue durée (>6 mois),1,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00146,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,2,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00147,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00148,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | corticothérapie longue durée (>6 mois),1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00149,2,sulfamides | AINS,sulfamides: éruption cutanée maculo-papuleuse | AINS: bronchospasme/urticaire,antibiotique | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00150,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,metformine | oméprazole,antidiabétique biguanide | IPP,0,aucun,2,0,0
+INT_00151,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00152,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,clopidogrel | oméprazole | atorvastatine,IPP | hypolipémiant statine | antiagrégant plaquettaire,0,aucun,5,1,0
+INT_00153,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00154,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00155,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00156,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00157,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,antirétroviraux (cART),0,0,0,3,atorvastatine | oméprazole | warfarine,hypolipémiant statine | anticoagulant AVK | IPP,1,warfarine,6,1,0
+INT_00158,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00159,2,AINS | tétracyclines,AINS: bronchospasme/urticaire | tétracyclines: photosensibilisation,antidouleur/anti-inflammatoire | antibiotique,modérée,0,0,aucun,0,0,0,3,clopidogrel | atorvastatine | amiodarone,hypolipémiant statine | antiarythmique classe III | antiagrégant plaquettaire,1,amiodarone,7,1,0
+INT_00160,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00161,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,2,furosémide | warfarine,anticoagulant AVK | diurétique de l'anse,1,warfarine,5,0,0
+INT_00162,0,aucune,aucune,aucune,aucune,0,3,corticothérapie longue durée (>6 mois) | chirurgie majeure récente (<6 mois) | dialyse hémodialyse,0,1,1,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00163,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | sertraline | clopidogrel,antidépresseur ISRS | anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,7,1,0
+INT_00164,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00165,2,latex | gélatine,latex: urticaire de contact/anaphylaxie | gélatine: urticaire/angioedème,matériau médical | excipient vaccinal,grave,1,1,radiothérapie thoracique,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00166,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | prednisone,immunosuppresseur calci | corticoïde systémique,2,ciclosporine | prednisone,6,0,1
+INT_00167,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,3,dialyse hémodialyse | biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,1,5,méthotrexate | clopidogrel | atorvastatine | metformine | ciclosporine,antidiabétique biguanide | hypolipémiant statine | immunosuppresseur calci | antiagrégant plaquettaire | immunosuppresseur/DMARD,2,méthotrexate | ciclosporine,11,1,1
+INT_00168,2,AINS | aluminium,AINS: bronchospasme/urticaire | aluminium: granulome au site injection,antidouleur/anti-inflammatoire | adjuvant vaccinal,modérée,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00169,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | ciclosporine | clopidogrel,immunosuppresseur calci | hormone thyroïdienne | antiagrégant plaquettaire,1,ciclosporine,6,1,0
+INT_00170,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,3,greffe organe solide | radiothérapie thoracique | chimiothérapie (carboplatine/paclitaxel),1,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00171,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,atorvastatine | furosémide | oméprazole | ramipril,IPP | antihypertenseur IEC | hypolipémiant statine | diurétique de l'anse,0,aucun,6,1,0
+INT_00172,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00173,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,3,furosémide | ciclosporine | prednisone,corticoïde systémique | immunosuppresseur calci | diurétique de l'anse,2,ciclosporine | prednisone,8,1,1
+INT_00174,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,clopidogrel | atorvastatine,hypolipémiant statine | antiagrégant plaquettaire,0,aucun,4,0,0
+INT_00175,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,furosémide | metformine,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00176,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00177,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,clopidogrel | metformine,antidiabétique biguanide | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00178,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,3,ramipril | amlodipine | prednisone,antihypertenseur IEC | corticoïde systémique | antihypertenseur ICC,1,prednisone,5,1,0
+INT_00179,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | chirurgie majeure récente (<6 mois),0,1,0,3,furosémide | méthotrexate | lévothyroxine,hormone thyroïdienne | diurétique de l'anse | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00180,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,amlodipine | warfarine,anticoagulant AVK | antihypertenseur ICC,1,warfarine,4,0,0
+INT_00181,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,dialyse hémodialyse,0,0,1,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00182,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00183,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,2,méthotrexate | ramipril,antihypertenseur IEC | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00184,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00185,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00186,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,4,metformine | amlodipine | clopidogrel | prednisone,corticoïde systémique | antidiabétique biguanide | antiagrégant plaquettaire | antihypertenseur ICC,1,prednisone,7,1,0
+INT_00187,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00188,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00189,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | furosémide,immunosuppresseur calci | diurétique de l'anse,1,ciclosporine,5,0,0
+INT_00190,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,5,sertraline | prednisone | amiodarone | ramipril | warfarine,corticoïde systémique | antidépresseur ISRS | anticoagulant AVK | antihypertenseur IEC | antiarythmique classe III,3,prednisone | amiodarone | warfarine,12,1,1
+INT_00191,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | greffe organe solide,1,0,0,2,oméprazole | ramipril,antihypertenseur IEC | IPP,0,aucun,2,0,0
+INT_00192,3,œufs | céphalosporines | AINS,œufs: anaphylaxie systémique | céphalosporines: réaction croisée pénicilline | AINS: bronchospasme/urticaire,allergie alimentaire/excipient | antibiotique bêta-lactamine | antidouleur/anti-inflammatoire,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00193,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,méthotrexate | ciclosporine | furosémide | sertraline,immunosuppresseur calci | antidépresseur ISRS | diurétique de l'anse | immunosuppresseur/DMARD,2,méthotrexate | ciclosporine,10,1,1
+INT_00194,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00195,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00196,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00197,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00198,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00199,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,oméprazole | ramipril,antihypertenseur IEC | IPP,0,aucun,2,0,0
+INT_00200,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,3,ciclosporine | sertraline | prednisone,immunosuppresseur calci | antidépresseur ISRS | corticoïde systémique,2,ciclosporine | prednisone,8,1,1
+INT_00201,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,amlodipine | ramipril | ciclosporine | warfarine | atorvastatine,immunosuppresseur calci | hypolipémiant statine | antihypertenseur ICC | anticoagulant AVK | antihypertenseur IEC,2,ciclosporine | warfarine,10,1,1
+INT_00202,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00203,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | chirurgie majeure récente (<6 mois),0,1,0,3,lévothyroxine | méthotrexate | ramipril,antihypertenseur IEC | hormone thyroïdienne | immunosuppresseur/DMARD,1,méthotrexate,5,1,0
+INT_00204,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00205,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00206,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,metformine | furosémide | méthotrexate,antidiabétique biguanide | diurétique de l'anse | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00207,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00208,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,4,amiodarone | warfarine | lévothyroxine | atorvastatine,hypolipémiant statine | hormone thyroïdienne | anticoagulant AVK | antiarythmique classe III,2,amiodarone | warfarine,9,1,1
+INT_00209,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00210,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,prednisone | amiodarone,antiarythmique classe III | corticoïde systémique,2,prednisone | amiodarone,6,0,1
+INT_00211,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,ramipril | prednisone,antihypertenseur IEC | corticoïde systémique,1,prednisone,4,0,0
+INT_00212,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,furosémide | metformine,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00213,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ramipril | ciclosporine,antihypertenseur IEC | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00214,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,2,metformine | furosémide,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00215,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00216,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00217,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | warfarine,antidiabétique biguanide | anticoagulant AVK,1,warfarine,4,0,0
+INT_00218,2,œufs | tétracyclines,œufs: anaphylaxie systémique | tétracyclines: photosensibilisation,allergie alimentaire/excipient | antibiotique,grave,1,1,antirétroviraux (cART),0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00219,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00220,2,pénicilline | aluminium,pénicilline: anaphylaxie IgE-médiée | aluminium: granulome au site injection,antibiotique bêta-lactamine | adjuvant vaccinal,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00221,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | chirurgie majeure récente (<6 mois),0,1,0,4,warfarine | ciclosporine | méthotrexate | ramipril,antihypertenseur IEC | immunosuppresseur calci | anticoagulant AVK | immunosuppresseur/DMARD,3,warfarine | ciclosporine | méthotrexate,10,1,1
+INT_00222,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00223,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,3,antirétroviraux (cART) | anticoagulants oraux (warfarine/DOAC) | chirurgie majeure récente (<6 mois),0,1,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00224,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00225,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00226,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00227,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | biothérapie (anti-TNF/anti-IL),1,0,0,5,atorvastatine | warfarine | amiodarone | clopidogrel | ciclosporine,hypolipémiant statine | immunosuppresseur calci | antiagrégant plaquettaire | anticoagulant AVK | antiarythmique classe III,3,warfarine | amiodarone | ciclosporine,13,1,1
+INT_00228,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,3,oméprazole | furosémide | lévothyroxine,hormone thyroïdienne | IPP | diurétique de l'anse,0,aucun,4,1,0
+INT_00229,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00230,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00231,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00232,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00233,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,3,méthotrexate | amlodipine | clopidogrel,antiagrégant plaquettaire | antihypertenseur ICC | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00234,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,2,furosémide | amlodipine,diurétique de l'anse | antihypertenseur ICC,0,aucun,3,0,0
+INT_00235,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00236,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | chirurgie majeure récente (<6 mois),0,1,0,2,ramipril | prednisone,antihypertenseur IEC | corticoïde systémique,1,prednisone,4,0,0
+INT_00237,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00238,0,aucune,aucune,aucune,aucune,0,3,chimiothérapie (carboplatine/paclitaxel) | anticoagulants oraux (warfarine/DOAC) | antirétroviraux (cART),1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00239,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00240,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00241,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,2,corticothérapie longue durée (>6 mois) | radiothérapie thoracique,0,0,0,3,ramipril | lévothyroxine | metformine,antidiabétique biguanide | antihypertenseur IEC | hormone thyroïdienne,0,aucun,3,1,0
+INT_00242,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,2,warfarine | ramipril,antihypertenseur IEC | anticoagulant AVK,1,warfarine,4,0,0
+INT_00243,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,greffe organe solide,1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00244,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00245,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ramipril | sertraline,antihypertenseur IEC | antidépresseur ISRS,0,aucun,3,0,0
+INT_00246,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,oméprazole | metformine | prednisone,corticoïde systémique | antidiabétique biguanide | IPP,1,prednisone,5,1,0
+INT_00247,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00248,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,4,lévothyroxine | prednisone | furosémide | clopidogrel,antiagrégant plaquettaire | hormone thyroïdienne | corticoïde systémique | diurétique de l'anse,1,prednisone,8,1,0
+INT_00249,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00250,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00251,0,aucune,aucune,aucune,aucune,0,2,dialyse hémodialyse | chimiothérapie (carboplatine/paclitaxel),1,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00252,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00253,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,corticothérapie longue durée (>6 mois),0,0,0,2,amiodarone | clopidogrel,antiagrégant plaquettaire | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00254,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,2,amiodarone | sertraline,antidépresseur ISRS | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00255,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00256,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00257,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00258,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,2,ciclosporine | metformine,antidiabétique biguanide | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00259,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00260,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,2,lévothyroxine | clopidogrel,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00261,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,5,clopidogrel | ciclosporine | furosémide | amlodipine | warfarine,immunosuppresseur calci | antiagrégant plaquettaire | diurétique de l'anse | antihypertenseur ICC | anticoagulant AVK,2,ciclosporine | warfarine,11,1,1
+INT_00262,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | amiodarone,antiarythmique classe III | IPP,1,amiodarone,4,0,0
+INT_00263,0,aucune,aucune,aucune,aucune,0,3,radiothérapie thoracique | corticothérapie longue durée (>6 mois) | greffe organe solide,1,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00264,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00265,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,3,oméprazole | metformine | méthotrexate,antidiabétique biguanide | IPP | immunosuppresseur/DMARD,1,méthotrexate,5,1,0
+INT_00266,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,clopidogrel | ciclosporine,immunosuppresseur calci | antiagrégant plaquettaire,1,ciclosporine,5,0,0
+INT_00267,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00268,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ciclosporine | amiodarone | lévothyroxine,immunosuppresseur calci | hormone thyroïdienne | antiarythmique classe III,2,ciclosporine | amiodarone,7,1,1
+INT_00269,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,ramipril | amlodipine,antihypertenseur IEC | antihypertenseur ICC,0,aucun,2,0,0
+INT_00270,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,lévothyroxine | atorvastatine,hypolipémiant statine | hormone thyroïdienne,0,aucun,3,0,0
+INT_00271,2,gélatine | néomycine,gélatine: urticaire/angioedème | néomycine: dermatite de contact,excipient vaccinal | antibiotique aminoglycoside,modérée,0,0,aucun,0,0,0,5,clopidogrel | ramipril | méthotrexate | metformine | amiodarone,antidiabétique biguanide | antiagrégant plaquettaire | immunosuppresseur/DMARD | antihypertenseur IEC | antiarythmique classe III,2,méthotrexate | amiodarone,10,1,1
+INT_00272,2,néomycine | aluminium,néomycine: dermatite de contact | aluminium: granulome au site injection,antibiotique aminoglycoside | adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,furosémide | amiodarone,antiarythmique classe III | diurétique de l'anse,1,amiodarone,5,0,0
+INT_00273,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00274,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,4,atorvastatine | metformine | méthotrexate | warfarine,antidiabétique biguanide | hypolipémiant statine | anticoagulant AVK | immunosuppresseur/DMARD,2,méthotrexate | warfarine,9,1,1
+INT_00275,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | antirétroviraux (cART),1,0,0,3,metformine | warfarine | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne | anticoagulant AVK,1,warfarine,5,1,0
+INT_00276,2,céphalosporines | aluminium,céphalosporines: réaction croisée pénicilline | aluminium: granulome au site injection,antibiotique bêta-lactamine | adjuvant vaccinal,modérée,0,0,aucun,0,0,0,5,ramipril | sertraline | clopidogrel | metformine | warfarine,antidiabétique biguanide | antiagrégant plaquettaire | antidépresseur ISRS | anticoagulant AVK | antihypertenseur IEC,1,warfarine,9,1,0
+INT_00277,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00278,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | chirurgie majeure récente (<6 mois),0,1,0,2,amiodarone | ramipril,antihypertenseur IEC | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00279,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00280,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00281,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00282,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,ciclosporine | méthotrexate,immunosuppresseur calci | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,6,0,1
+INT_00283,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,4,ramipril | atorvastatine | amlodipine | lévothyroxine,antihypertenseur IEC | hypolipémiant statine | hormone thyroïdienne | antihypertenseur ICC,0,aucun,5,1,0
+INT_00284,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,2,biothérapie (anti-TNF/anti-IL) | dialyse hémodialyse,1,0,1,3,furosémide | clopidogrel | prednisone,antiagrégant plaquettaire | corticoïde systémique | diurétique de l'anse,1,prednisone,7,1,0
+INT_00285,3,œufs | néomycine | pénicilline,œufs: anaphylaxie systémique | néomycine: dermatite de contact | pénicilline: anaphylaxie IgE-médiée,allergie alimentaire/excipient | antibiotique aminoglycoside | antibiotique bêta-lactamine,grave,1,1,greffe organe solide,1,0,0,4,ramipril | clopidogrel | lévothyroxine | oméprazole,IPP | antihypertenseur IEC | hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,5,1,0
+INT_00286,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,sertraline | méthotrexate | atorvastatine | amlodipine,hypolipémiant statine | antidépresseur ISRS | antihypertenseur ICC | immunosuppresseur/DMARD,1,méthotrexate,8,1,0
+INT_00287,2,sulfamides | latex,sulfamides: éruption cutanée maculo-papuleuse | latex: urticaire de contact/anaphylaxie,antibiotique | matériau médical,grave,1,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00288,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,furosémide | sertraline | oméprazole | ciclosporine | méthotrexate,immunosuppresseur calci | IPP | diurétique de l'anse | antidépresseur ISRS | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,11,1,1
+INT_00289,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00290,2,sulfamides | œufs,sulfamides: éruption cutanée maculo-papuleuse | œufs: anaphylaxie systémique,antibiotique | allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00291,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,furosémide | ciclosporine | atorvastatine,immunosuppresseur calci | diurétique de l'anse | hypolipémiant statine,1,ciclosporine,7,1,0
+INT_00292,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00293,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00294,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00295,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amiodarone | furosémide,antiarythmique classe III | diurétique de l'anse,1,amiodarone,5,0,0
+INT_00296,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | warfarine,antidépresseur ISRS | anticoagulant AVK,1,warfarine,5,0,0
+INT_00297,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,ramipril | prednisone | ciclosporine,antihypertenseur IEC | immunosuppresseur calci | corticoïde systémique,2,prednisone | ciclosporine,7,1,1
+INT_00298,2,gélatine | latex,gélatine: urticaire/angioedème | latex: urticaire de contact/anaphylaxie,excipient vaccinal | matériau médical,grave,1,0,aucun,0,0,0,2,oméprazole | furosémide,IPP | diurétique de l'anse,0,aucun,3,0,0
+INT_00299,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,oméprazole | méthotrexate | amlodipine,antihypertenseur ICC | IPP | immunosuppresseur/DMARD,1,méthotrexate,5,1,0
+INT_00300,2,céphalosporines | latex,céphalosporines: réaction croisée pénicilline | latex: urticaire de contact/anaphylaxie,antibiotique bêta-lactamine | matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00301,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00302,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,metformine | prednisone,antidiabétique biguanide | corticoïde systémique,1,prednisone,4,0,0
+INT_00303,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,méthotrexate | amiodarone | warfarine,anticoagulant AVK | antiarythmique classe III | immunosuppresseur/DMARD,3,méthotrexate | amiodarone | warfarine,9,1,1
+INT_00304,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,warfarine | prednisone,anticoagulant AVK | corticoïde systémique,2,warfarine | prednisone,6,0,1
+INT_00305,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00306,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,3,chirurgie majeure récente (<6 mois) | corticothérapie longue durée (>6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00307,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00308,2,latex | pénicilline,latex: urticaire de contact/anaphylaxie | pénicilline: anaphylaxie IgE-médiée,matériau médical | antibiotique bêta-lactamine,grave,1,2,immunosuppresseurs (azathioprine/ciclosporine) | corticothérapie longue durée (>6 mois),1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00309,2,sulfamides | œufs,sulfamides: éruption cutanée maculo-papuleuse | œufs: anaphylaxie systémique,antibiotique | allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,2,clopidogrel | oméprazole,IPP | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00310,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,5,ramipril | furosémide | oméprazole | metformine | atorvastatine,antidiabétique biguanide | hypolipémiant statine | IPP | diurétique de l'anse | antihypertenseur IEC,0,aucun,7,1,0
+INT_00311,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00312,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00313,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00314,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00315,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amiodarone | prednisone,corticoïde systémique | antiarythmique classe III,2,amiodarone | prednisone,6,0,1
+INT_00316,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | corticothérapie longue durée (>6 mois),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00317,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00318,3,pénicilline | aluminium | tétracyclines,pénicilline: anaphylaxie IgE-médiée | aluminium: granulome au site injection | tétracyclines: photosensibilisation,antibiotique bêta-lactamine | adjuvant vaccinal | antibiotique,grave,1,1,corticothérapie longue durée (>6 mois),0,0,0,5,ramipril | prednisone | clopidogrel | atorvastatine | furosémide,hypolipémiant statine | antiagrégant plaquettaire | corticoïde systémique | diurétique de l'anse | antihypertenseur IEC,1,prednisone,10,1,0
+INT_00319,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00320,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,4,clopidogrel | metformine | amlodipine | atorvastatine,antidiabétique biguanide | hypolipémiant statine | antiagrégant plaquettaire | antihypertenseur ICC,0,aucun,6,1,0
+INT_00321,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00322,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,2,sertraline | clopidogrel,antidépresseur ISRS | antiagrégant plaquettaire,0,aucun,4,0,0
+INT_00323,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,4,metformine | sertraline | ramipril | méthotrexate,antidiabétique biguanide | antidépresseur ISRS | antihypertenseur IEC | immunosuppresseur/DMARD,1,méthotrexate,7,1,0
+INT_00324,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00325,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00326,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | dialyse hémodialyse,0,0,1,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00327,2,sulfamides | AINS,sulfamides: éruption cutanée maculo-papuleuse | AINS: bronchospasme/urticaire,antibiotique | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00328,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00329,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00330,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ramipril | amlodipine | clopidogrel,antihypertenseur IEC | antiagrégant plaquettaire | antihypertenseur ICC,0,aucun,4,1,0
+INT_00331,3,céphalosporines | sulfamides | aluminium,céphalosporines: réaction croisée pénicilline | sulfamides: éruption cutanée maculo-papuleuse | aluminium: granulome au site injection,antibiotique bêta-lactamine | antibiotique | adjuvant vaccinal,modérée,0,0,aucun,0,0,0,5,sertraline | prednisone | ciclosporine | atorvastatine | warfarine,immunosuppresseur calci | hypolipémiant statine | corticoïde systémique | antidépresseur ISRS | anticoagulant AVK,3,prednisone | ciclosporine | warfarine,13,1,1
+INT_00332,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00333,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00334,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00335,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00336,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00337,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00338,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00339,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00340,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00341,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,ramipril | prednisone,antihypertenseur IEC | corticoïde systémique,1,prednisone,4,0,0
+INT_00342,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,1,radiothérapie thoracique,0,0,0,3,clopidogrel | ciclosporine | warfarine,immunosuppresseur calci | anticoagulant AVK | antiagrégant plaquettaire,2,ciclosporine | warfarine,8,1,1
+INT_00343,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00344,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | radiothérapie thoracique,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00345,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,radiothérapie thoracique,0,0,0,2,amiodarone | warfarine,anticoagulant AVK | antiarythmique classe III,2,amiodarone | warfarine,6,0,1
+INT_00346,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00347,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,5,méthotrexate | sertraline | atorvastatine | prednisone | clopidogrel,hypolipémiant statine | antiagrégant plaquettaire | corticoïde systémique | antidépresseur ISRS | immunosuppresseur/DMARD,2,méthotrexate | prednisone,12,1,1
+INT_00348,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,metformine | lévothyroxine | amiodarone,antidiabétique biguanide | hormone thyroïdienne | antiarythmique classe III,1,amiodarone,5,1,0
+INT_00349,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,clopidogrel | lévothyroxine,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00350,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00351,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | amiodarone | méthotrexate,anticoagulant AVK | antiarythmique classe III | immunosuppresseur/DMARD,3,warfarine | amiodarone | méthotrexate,9,1,1
+INT_00352,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,clopidogrel | sertraline | prednisone | amiodarone,corticoïde systémique | antidépresseur ISRS | antiarythmique classe III | antiagrégant plaquettaire,2,prednisone | amiodarone,10,1,1
+INT_00353,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,metformine | warfarine | ciclosporine | clopidogrel | prednisone,antidiabétique biguanide | immunosuppresseur calci | corticoïde systémique | antiagrégant plaquettaire | anticoagulant AVK,3,warfarine | ciclosporine | prednisone,12,1,1
+INT_00354,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | antirétroviraux (cART),0,0,0,5,metformine | sertraline | oméprazole | clopidogrel | ciclosporine,antidiabétique biguanide | immunosuppresseur calci | antiagrégant plaquettaire | IPP | antidépresseur ISRS,1,ciclosporine,9,1,0
+INT_00355,2,œufs | pénicilline,œufs: anaphylaxie systémique | pénicilline: anaphylaxie IgE-médiée,allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00356,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,ciclosporine | sertraline,immunosuppresseur calci | antidépresseur ISRS,1,ciclosporine,5,0,0
+INT_00357,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00358,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00359,2,œufs | céphalosporines,œufs: anaphylaxie systémique | céphalosporines: réaction croisée pénicilline,allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,1,greffe organe solide,1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00360,2,néomycine | AINS,néomycine: dermatite de contact | AINS: bronchospasme/urticaire,antibiotique aminoglycoside | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00361,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | prednisone,antidiabétique biguanide | corticoïde systémique,1,prednisone,4,0,0
+INT_00362,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00363,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | chirurgie majeure récente (<6 mois),1,1,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00364,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,clopidogrel | lévothyroxine,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00365,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,atorvastatine | lévothyroxine | amiodarone,hypolipémiant statine | hormone thyroïdienne | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00366,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,radiothérapie thoracique,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00367,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00368,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00369,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,3,biothérapie (anti-TNF/anti-IL) | greffe organe solide | radiothérapie thoracique,1,0,0,2,atorvastatine | oméprazole,hypolipémiant statine | IPP,0,aucun,3,0,0
+INT_00370,2,AINS | aluminium,AINS: bronchospasme/urticaire | aluminium: granulome au site injection,antidouleur/anti-inflammatoire | adjuvant vaccinal,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,5,ciclosporine | amiodarone | metformine | atorvastatine | oméprazole,antidiabétique biguanide | immunosuppresseur calci | hypolipémiant statine | IPP | antiarythmique classe III,2,ciclosporine | amiodarone,10,1,1
+INT_00371,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00372,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00373,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00374,2,gélatine | céphalosporines,gélatine: urticaire/angioedème | céphalosporines: réaction croisée pénicilline,excipient vaccinal | antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00375,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00376,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,atorvastatine | amlodipine,hypolipémiant statine | antihypertenseur ICC,0,aucun,3,0,0
+INT_00377,0,aucune,aucune,aucune,aucune,0,2,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,3,warfarine | oméprazole | sertraline,antidépresseur ISRS | anticoagulant AVK | IPP,1,warfarine,6,1,0
+INT_00378,2,aluminium | latex,aluminium: granulome au site injection | latex: urticaire de contact/anaphylaxie,adjuvant vaccinal | matériau médical,grave,1,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00379,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,warfarine | sertraline,antidépresseur ISRS | anticoagulant AVK,1,warfarine,5,0,0
+INT_00380,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00381,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00382,2,tétracyclines | AINS,tétracyclines: photosensibilisation | AINS: bronchospasme/urticaire,antibiotique | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,5,clopidogrel | amiodarone | amlodipine | atorvastatine | méthotrexate,hypolipémiant statine | antiagrégant plaquettaire | antihypertenseur ICC | immunosuppresseur/DMARD | antiarythmique classe III,2,amiodarone | méthotrexate,11,1,1
+INT_00383,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | amlodipine,antidépresseur ISRS | antihypertenseur ICC,0,aucun,3,0,0
+INT_00384,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00385,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,2,chimiothérapie (carboplatine/paclitaxel) | dialyse hémodialyse,1,0,1,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00386,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00387,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00388,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,5,warfarine | oméprazole | clopidogrel | metformine | amlodipine,antidiabétique biguanide | antiagrégant plaquettaire | IPP | antihypertenseur ICC | anticoagulant AVK,1,warfarine,8,1,0
+INT_00389,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00390,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00391,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00392,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00393,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00394,3,AINS | œufs | sulfamides,AINS: bronchospasme/urticaire | œufs: anaphylaxie systémique | sulfamides: éruption cutanée maculo-papuleuse,antidouleur/anti-inflammatoire | allergie alimentaire/excipient | antibiotique,grave,1,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00395,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00396,2,céphalosporines | gélatine,céphalosporines: réaction croisée pénicilline | gélatine: urticaire/angioedème,antibiotique bêta-lactamine | excipient vaccinal,modérée,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00397,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00398,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00399,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00400,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,furosémide | atorvastatine,hypolipémiant statine | diurétique de l'anse,0,aucun,4,0,0
+INT_00401,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00402,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | ciclosporine,immunosuppresseur calci | IPP,1,ciclosporine,4,0,0
+INT_00403,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,clopidogrel | oméprazole,IPP | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00404,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00405,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,warfarine | oméprazole | ciclosporine | ramipril,antihypertenseur IEC | immunosuppresseur calci | anticoagulant AVK | IPP,2,warfarine | ciclosporine,8,1,1
+INT_00406,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | ciclosporine | clopidogrel,immunosuppresseur calci | hormone thyroïdienne | antiagrégant plaquettaire,1,ciclosporine,6,1,0
+INT_00407,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,méthotrexate | furosémide,diurétique de l'anse | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00408,2,sulfamides | néomycine,sulfamides: éruption cutanée maculo-papuleuse | néomycine: dermatite de contact,antibiotique | antibiotique aminoglycoside,modérée,0,1,dialyse hémodialyse,0,0,1,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00409,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,clopidogrel | atorvastatine | amlodipine,hypolipémiant statine | antiagrégant plaquettaire | antihypertenseur ICC,0,aucun,5,1,0
+INT_00410,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,radiothérapie thoracique,0,0,0,2,méthotrexate | atorvastatine,hypolipémiant statine | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00411,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00412,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,4,amlodipine | metformine | sertraline | méthotrexate,immunosuppresseur/DMARD | antidiabétique biguanide | antidépresseur ISRS | antihypertenseur ICC,1,méthotrexate,7,1,0
+INT_00413,2,gélatine | tétracyclines,gélatine: urticaire/angioedème | tétracyclines: photosensibilisation,excipient vaccinal | antibiotique,modérée,0,2,biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00414,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,amiodarone | warfarine | sertraline,antidépresseur ISRS | anticoagulant AVK | antiarythmique classe III,2,amiodarone | warfarine,8,1,1
+INT_00415,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00416,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,3,amlodipine | warfarine | amiodarone,anticoagulant AVK | antiarythmique classe III | antihypertenseur ICC,2,warfarine | amiodarone,7,1,1
+INT_00417,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00418,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,ramipril | ciclosporine | furosémide | warfarine | oméprazole,immunosuppresseur calci | IPP | diurétique de l'anse | anticoagulant AVK | antihypertenseur IEC,2,ciclosporine | warfarine,10,1,1
+INT_00419,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00420,2,œufs | céphalosporines,œufs: anaphylaxie systémique | céphalosporines: réaction croisée pénicilline,allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,méthotrexate | prednisone,corticoïde systémique | immunosuppresseur/DMARD,2,méthotrexate | prednisone,6,0,1
+INT_00421,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ciclosporine | lévothyroxine | atorvastatine,immunosuppresseur calci | hormone thyroïdienne | hypolipémiant statine,1,ciclosporine,6,1,0
+INT_00422,2,gélatine | néomycine,gélatine: urticaire/angioedème | néomycine: dermatite de contact,excipient vaccinal | antibiotique aminoglycoside,modérée,0,1,corticothérapie longue durée (>6 mois),0,0,0,4,warfarine | atorvastatine | metformine | furosémide,antidiabétique biguanide | hypolipémiant statine | anticoagulant AVK | diurétique de l'anse,1,warfarine,8,1,0
+INT_00423,2,sulfamides | néomycine,sulfamides: éruption cutanée maculo-papuleuse | néomycine: dermatite de contact,antibiotique | antibiotique aminoglycoside,modérée,0,2,radiothérapie thoracique | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00424,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00425,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,corticothérapie longue durée (>6 mois),0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00426,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00427,0,aucune,aucune,aucune,aucune,0,3,radiothérapie thoracique | chimiothérapie (carboplatine/paclitaxel) | dialyse hémodialyse,1,0,1,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00428,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | chirurgie majeure récente (<6 mois),1,1,0,2,prednisone | amlodipine,corticoïde systémique | antihypertenseur ICC,1,prednisone,4,0,0
+INT_00429,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amiodarone | furosémide,antiarythmique classe III | diurétique de l'anse,1,amiodarone,5,0,0
+INT_00430,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00431,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00432,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00433,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00434,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00435,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00436,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00437,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amiodarone | méthotrexate | clopidogrel,antiagrégant plaquettaire | antiarythmique classe III | immunosuppresseur/DMARD,2,amiodarone | méthotrexate,8,1,1
+INT_00438,2,AINS | gélatine,AINS: bronchospasme/urticaire | gélatine: urticaire/angioedème,antidouleur/anti-inflammatoire | excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00439,3,néomycine | œufs | latex,néomycine: dermatite de contact | œufs: anaphylaxie systémique | latex: urticaire de contact/anaphylaxie,antibiotique aminoglycoside | allergie alimentaire/excipient | matériau médical,grave,1,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00440,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,2,metformine | amiodarone,antidiabétique biguanide | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00441,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,warfarine | oméprazole,anticoagulant AVK | IPP,1,warfarine,4,0,0
+INT_00442,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | dialyse hémodialyse,1,0,1,5,prednisone | warfarine | ciclosporine | sertraline | amlodipine,immunosuppresseur calci | corticoïde systémique | antihypertenseur ICC | antidépresseur ISRS | anticoagulant AVK,3,prednisone | warfarine | ciclosporine,12,1,1
+INT_00443,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00444,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,dialyse hémodialyse,0,0,1,5,méthotrexate | oméprazole | amlodipine | amiodarone | ramipril,IPP | antihypertenseur ICC | immunosuppresseur/DMARD | antihypertenseur IEC | antiarythmique classe III,2,méthotrexate | amiodarone,9,1,1
+INT_00445,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,3,ciclosporine | clopidogrel | oméprazole,IPP | immunosuppresseur calci | antiagrégant plaquettaire,1,ciclosporine,6,1,0
+INT_00446,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | ramipril,antihypertenseur IEC | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00447,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,metformine | méthotrexate,antidiabétique biguanide | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00448,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | amlodipine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00449,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,1,greffe organe solide,1,0,0,2,amiodarone | sertraline,antidépresseur ISRS | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00450,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,lévothyroxine | warfarine,hormone thyroïdienne | anticoagulant AVK,1,warfarine,4,0,0
+INT_00451,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00452,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00453,2,AINS | œufs,AINS: bronchospasme/urticaire | œufs: anaphylaxie systémique,antidouleur/anti-inflammatoire | allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00454,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00455,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00456,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00457,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00458,3,néomycine | AINS | gélatine,néomycine: dermatite de contact | AINS: bronchospasme/urticaire | gélatine: urticaire/angioedème,antibiotique aminoglycoside | antidouleur/anti-inflammatoire | excipient vaccinal,modérée,0,0,aucun,0,0,0,4,sertraline | amiodarone | amlodipine | clopidogrel,antiagrégant plaquettaire | antidépresseur ISRS | antiarythmique classe III | antihypertenseur ICC,1,amiodarone,8,1,0
+INT_00459,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,2,chirurgie majeure récente (<6 mois) | dialyse hémodialyse,0,1,1,2,warfarine | clopidogrel,anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,5,0,0
+INT_00460,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00461,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,greffe organe solide,1,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00462,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00463,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,2,radiothérapie thoracique | dialyse hémodialyse,0,0,1,3,ramipril | atorvastatine | warfarine,antihypertenseur IEC | hypolipémiant statine | anticoagulant AVK,1,warfarine,6,1,0
+INT_00464,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,4,warfarine | metformine | furosémide | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne | anticoagulant AVK | diurétique de l'anse,1,warfarine,7,1,0
+INT_00465,3,sulfamides | AINS | pénicilline,sulfamides: éruption cutanée maculo-papuleuse | AINS: bronchospasme/urticaire | pénicilline: anaphylaxie IgE-médiée,antibiotique | antidouleur/anti-inflammatoire | antibiotique bêta-lactamine,grave,1,2,immunosuppresseurs (azathioprine/ciclosporine) | chirurgie majeure récente (<6 mois),1,1,0,2,ramipril | méthotrexate,antihypertenseur IEC | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00466,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00467,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,3,furosémide | amiodarone | amlodipine,antiarythmique classe III | diurétique de l'anse | antihypertenseur ICC,1,amiodarone,6,1,0
+INT_00468,2,pénicilline | gélatine,pénicilline: anaphylaxie IgE-médiée | gélatine: urticaire/angioedème,antibiotique bêta-lactamine | excipient vaccinal,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00469,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | biothérapie (anti-TNF/anti-IL),1,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00470,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,4,amlodipine | amiodarone | ciclosporine | oméprazole,IPP | immunosuppresseur calci | antiarythmique classe III | antihypertenseur ICC,2,amiodarone | ciclosporine,8,1,1
+INT_00471,2,aluminium | latex,aluminium: granulome au site injection | latex: urticaire de contact/anaphylaxie,adjuvant vaccinal | matériau médical,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,amiodarone | ciclosporine,immunosuppresseur calci | antiarythmique classe III,2,amiodarone | ciclosporine,6,0,1
+INT_00472,2,pénicilline | AINS,pénicilline: anaphylaxie IgE-médiée | AINS: bronchospasme/urticaire,antibiotique bêta-lactamine | antidouleur/anti-inflammatoire,grave,1,3,anticoagulants oraux (warfarine/DOAC) | dialyse hémodialyse | corticothérapie longue durée (>6 mois),0,0,1,4,warfarine | ciclosporine | sertraline | lévothyroxine,hormone thyroïdienne | immunosuppresseur calci | antidépresseur ISRS | anticoagulant AVK,2,warfarine | ciclosporine,9,1,1
+INT_00473,0,aucune,aucune,aucune,aucune,0,3,dialyse hémodialyse | chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,1,5,méthotrexate | amlodipine | oméprazole | amiodarone | sertraline,IPP | antihypertenseur ICC | antidépresseur ISRS | immunosuppresseur/DMARD | antiarythmique classe III,2,méthotrexate | amiodarone,10,1,1
+INT_00474,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,dialyse hémodialyse,0,0,1,3,ramipril | oméprazole | lévothyroxine,antihypertenseur IEC | hormone thyroïdienne | IPP,0,aucun,3,1,0
+INT_00475,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,3,amiodarone | atorvastatine | amlodipine,hypolipémiant statine | antiarythmique classe III | antihypertenseur ICC,1,amiodarone,6,1,0
+INT_00476,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00477,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00478,0,aucune,aucune,aucune,aucune,0,3,biothérapie (anti-TNF/anti-IL) | antirétroviraux (cART) | anticoagulants oraux (warfarine/DOAC),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00479,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,3,anticoagulants oraux (warfarine/DOAC) | chirurgie majeure récente (<6 mois) | biothérapie (anti-TNF/anti-IL),1,1,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00480,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,prednisone | amiodarone | atorvastatine | ciclosporine,immunosuppresseur calci | hypolipémiant statine | antiarythmique classe III | corticoïde systémique,3,prednisone | amiodarone | ciclosporine,11,1,1
+INT_00481,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,3,atorvastatine | ciclosporine | warfarine,hypolipémiant statine | immunosuppresseur calci | anticoagulant AVK,2,ciclosporine | warfarine,8,1,1
+INT_00482,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ramipril | metformine | warfarine,antidiabétique biguanide | antihypertenseur IEC | anticoagulant AVK,1,warfarine,5,1,0
+INT_00483,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | amlodipine,antidépresseur ISRS | antihypertenseur ICC,0,aucun,3,0,0
+INT_00484,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,5,lévothyroxine | amiodarone | méthotrexate | ciclosporine | prednisone,immunosuppresseur calci | corticoïde systémique | immunosuppresseur/DMARD | hormone thyroïdienne | antiarythmique classe III,4,amiodarone | méthotrexate | ciclosporine | prednisone,13,1,1
+INT_00485,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00486,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00487,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00488,2,gélatine | sulfamides,gélatine: urticaire/angioedème | sulfamides: éruption cutanée maculo-papuleuse,excipient vaccinal | antibiotique,modérée,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,amlodipine | warfarine,anticoagulant AVK | antihypertenseur ICC,1,warfarine,4,0,0
+INT_00489,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | dialyse hémodialyse,0,0,1,3,ramipril | amlodipine | atorvastatine,antihypertenseur IEC | hypolipémiant statine | antihypertenseur ICC,0,aucun,4,1,0
+INT_00490,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,chirurgie majeure récente (<6 mois),0,1,0,3,amlodipine | furosémide | ciclosporine,immunosuppresseur calci | diurétique de l'anse | antihypertenseur ICC,1,ciclosporine,6,1,0
+INT_00491,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00492,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,amiodarone | clopidogrel,antiagrégant plaquettaire | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00493,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00494,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00495,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00496,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00497,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00498,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00499,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00500,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00501,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,4,warfarine | atorvastatine | ciclosporine | amlodipine,hypolipémiant statine | immunosuppresseur calci | anticoagulant AVK | antihypertenseur ICC,2,warfarine | ciclosporine,9,1,1
+INT_00502,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00503,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,2,corticothérapie longue durée (>6 mois) | anticoagulants oraux (warfarine/DOAC),0,0,0,2,clopidogrel | sertraline,antidépresseur ISRS | antiagrégant plaquettaire,0,aucun,4,0,0
+INT_00504,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,4,ramipril | méthotrexate | amlodipine | ciclosporine,antihypertenseur IEC | immunosuppresseur calci | antihypertenseur ICC | immunosuppresseur/DMARD,2,méthotrexate | ciclosporine,8,1,1
+INT_00505,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | atorvastatine,immunosuppresseur calci | hypolipémiant statine,1,ciclosporine,5,0,0
+INT_00506,2,néomycine | sulfamides,néomycine: dermatite de contact | sulfamides: éruption cutanée maculo-papuleuse,antibiotique aminoglycoside | antibiotique,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00507,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,2,corticothérapie longue durée (>6 mois) | radiothérapie thoracique,0,0,0,3,sertraline | amiodarone | oméprazole,IPP | antidépresseur ISRS | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00508,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,3,ciclosporine | atorvastatine | prednisone,immunosuppresseur calci | corticoïde systémique | hypolipémiant statine,2,ciclosporine | prednisone,8,1,1
+INT_00509,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,2,sertraline | ciclosporine,immunosuppresseur calci | antidépresseur ISRS,1,ciclosporine,5,0,0
+INT_00510,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,0,2,prednisone | atorvastatine,hypolipémiant statine | corticoïde systémique,1,prednisone,5,0,0
+INT_00511,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00512,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00513,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,oméprazole | warfarine | amlodipine,anticoagulant AVK | IPP | antihypertenseur ICC,1,warfarine,5,1,0
+INT_00514,2,œufs | sulfamides,œufs: anaphylaxie systémique | sulfamides: éruption cutanée maculo-papuleuse,allergie alimentaire/excipient | antibiotique,grave,1,0,aucun,0,0,0,3,clopidogrel | ramipril | amiodarone,antihypertenseur IEC | antiarythmique classe III | antiagrégant plaquettaire,1,amiodarone,6,1,0
+INT_00515,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00516,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00517,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00518,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,prednisone | sertraline | ciclosporine,immunosuppresseur calci | antidépresseur ISRS | corticoïde systémique,2,prednisone | ciclosporine,8,1,1
+INT_00519,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00520,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00521,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00522,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00523,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | oméprazole,antidépresseur ISRS | IPP,0,aucun,3,0,0
+INT_00524,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00525,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00526,2,pénicilline | aluminium,pénicilline: anaphylaxie IgE-médiée | aluminium: granulome au site injection,antibiotique bêta-lactamine | adjuvant vaccinal,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00527,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00528,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,4,amiodarone | oméprazole | ciclosporine | méthotrexate,IPP | immunosuppresseur calci | antiarythmique classe III | immunosuppresseur/DMARD,3,amiodarone | ciclosporine | méthotrexate,10,1,1
+INT_00529,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,lévothyroxine | méthotrexate,hormone thyroïdienne | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00530,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00531,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00532,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,3,amiodarone | lévothyroxine | warfarine,hormone thyroïdienne | anticoagulant AVK | antiarythmique classe III,2,amiodarone | warfarine,7,1,1
+INT_00533,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | radiothérapie thoracique,1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00534,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | radiothérapie thoracique,0,1,0,2,lévothyroxine | ciclosporine,immunosuppresseur calci | hormone thyroïdienne,1,ciclosporine,4,0,0
+INT_00535,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,2,radiothérapie thoracique | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00536,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00537,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | furosémide,IPP | diurétique de l'anse,0,aucun,3,0,0
+INT_00538,2,gélatine | AINS,gélatine: urticaire/angioedème | AINS: bronchospasme/urticaire,excipient vaccinal | antidouleur/anti-inflammatoire,modérée,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00539,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00540,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00541,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00542,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00543,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,2,lévothyroxine | ramipril,antihypertenseur IEC | hormone thyroïdienne,0,aucun,2,0,0
+INT_00544,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00545,0,aucune,aucune,aucune,aucune,0,2,dialyse hémodialyse | biothérapie (anti-TNF/anti-IL),1,0,1,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00546,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,3,amlodipine | ciclosporine | oméprazole,immunosuppresseur calci | IPP | antihypertenseur ICC,1,ciclosporine,5,1,0
+INT_00547,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00548,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00549,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00550,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,prednisone | ramipril | metformine | clopidogrel,antidiabétique biguanide | antiagrégant plaquettaire | antihypertenseur IEC | corticoïde systémique,1,prednisone,7,1,0
+INT_00551,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,2,warfarine | atorvastatine,hypolipémiant statine | anticoagulant AVK,1,warfarine,5,0,0
+INT_00552,2,néomycine | œufs,néomycine: dermatite de contact | œufs: anaphylaxie systémique,antibiotique aminoglycoside | allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00553,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00554,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,2,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,5,amlodipine | furosémide | metformine | atorvastatine | sertraline,antidiabétique biguanide | hypolipémiant statine | diurétique de l'anse | antihypertenseur ICC | antidépresseur ISRS,0,aucun,8,1,0
+INT_00555,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,5,sertraline | amlodipine | warfarine | ciclosporine | furosémide,immunosuppresseur calci | diurétique de l'anse | antihypertenseur ICC | antidépresseur ISRS | anticoagulant AVK,2,warfarine | ciclosporine,11,1,1
+INT_00556,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00557,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,antirétroviraux (cART),0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00558,3,gélatine | pénicilline | aluminium,gélatine: urticaire/angioedème | pénicilline: anaphylaxie IgE-médiée | aluminium: granulome au site injection,excipient vaccinal | antibiotique bêta-lactamine | adjuvant vaccinal,grave,1,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00559,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | dialyse hémodialyse,1,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00560,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00561,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,amiodarone | oméprazole,IPP | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00562,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00563,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,dialyse hémodialyse,0,0,1,2,oméprazole | atorvastatine,hypolipémiant statine | IPP,0,aucun,3,0,0
+INT_00564,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,oméprazole | ramipril | clopidogrel,antiagrégant plaquettaire | antihypertenseur IEC | IPP,0,aucun,4,1,0
+INT_00565,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,atorvastatine | ramipril,antihypertenseur IEC | hypolipémiant statine,0,aucun,3,0,0
+INT_00566,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00567,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00568,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | oméprazole | metformine,antidiabétique biguanide | anticoagulant AVK | IPP,1,warfarine,5,1,0
+INT_00569,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00570,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,2,clopidogrel | ciclosporine,immunosuppresseur calci | antiagrégant plaquettaire,1,ciclosporine,5,0,0
+INT_00571,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | amlodipine | ciclosporine,immunosuppresseur calci | hormone thyroïdienne | antihypertenseur ICC,1,ciclosporine,5,1,0
+INT_00572,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00573,0,aucune,aucune,aucune,aucune,0,2,anticoagulants oraux (warfarine/DOAC) | dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00574,2,aluminium | sulfamides,aluminium: granulome au site injection | sulfamides: éruption cutanée maculo-papuleuse,adjuvant vaccinal | antibiotique,modérée,0,0,aucun,0,0,0,2,ramipril | amlodipine,antihypertenseur IEC | antihypertenseur ICC,0,aucun,2,0,0
+INT_00575,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,2,ciclosporine | metformine,antidiabétique biguanide | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00576,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00577,2,AINS | tétracyclines,AINS: bronchospasme/urticaire | tétracyclines: photosensibilisation,antidouleur/anti-inflammatoire | antibiotique,modérée,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00578,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,sertraline | warfarine | méthotrexate,antidépresseur ISRS | anticoagulant AVK | immunosuppresseur/DMARD,2,warfarine | méthotrexate,8,1,1
+INT_00579,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,metformine | ciclosporine | sertraline | lévothyroxine,hormone thyroïdienne | antidiabétique biguanide | immunosuppresseur calci | antidépresseur ISRS,1,ciclosporine,7,1,0
+INT_00580,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00581,2,gélatine | néomycine,gélatine: urticaire/angioedème | néomycine: dermatite de contact,excipient vaccinal | antibiotique aminoglycoside,modérée,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00582,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,2,atorvastatine | amiodarone,hypolipémiant statine | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00583,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,3,ramipril | prednisone | ciclosporine,antihypertenseur IEC | immunosuppresseur calci | corticoïde systémique,2,prednisone | ciclosporine,7,1,1
+INT_00584,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00585,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,méthotrexate | ciclosporine | ramipril | amiodarone,antihypertenseur IEC | immunosuppresseur calci | antiarythmique classe III | immunosuppresseur/DMARD,3,méthotrexate | ciclosporine | amiodarone,10,1,1
+INT_00586,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00587,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,4,amlodipine | ciclosporine | furosémide | warfarine,immunosuppresseur calci | anticoagulant AVK | diurétique de l'anse | antihypertenseur ICC,2,ciclosporine | warfarine,9,1,1
+INT_00588,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | greffe organe solide,1,0,0,5,atorvastatine | ciclosporine | oméprazole | clopidogrel | warfarine,hypolipémiant statine | immunosuppresseur calci | antiagrégant plaquettaire | IPP | anticoagulant AVK,2,ciclosporine | warfarine,11,1,1
+INT_00589,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,3,greffe organe solide | chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00590,0,aucune,aucune,aucune,aucune,0,3,antirétroviraux (cART) | dialyse hémodialyse | chimiothérapie (carboplatine/paclitaxel),1,0,1,2,amlodipine | sertraline,antidépresseur ISRS | antihypertenseur ICC,0,aucun,3,0,0
+INT_00591,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00592,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00593,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,2,méthotrexate | clopidogrel,antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00594,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00595,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00596,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,5,lévothyroxine | warfarine | ramipril | amiodarone | amlodipine,antihypertenseur ICC | anticoagulant AVK | antihypertenseur IEC | hormone thyroïdienne | antiarythmique classe III,2,warfarine | amiodarone,9,1,1
+INT_00597,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00598,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00599,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,oméprazole | ramipril | méthotrexate,antihypertenseur IEC | IPP | immunosuppresseur/DMARD,1,méthotrexate,5,1,0
+INT_00600,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,2,anticoagulants oraux (warfarine/DOAC) | chirurgie majeure récente (<6 mois),0,1,0,2,sertraline | ramipril,antihypertenseur IEC | antidépresseur ISRS,0,aucun,3,0,0
+INT_00601,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00602,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00603,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | amlodipine,antidiabétique biguanide | antihypertenseur ICC,0,aucun,2,0,0
+INT_00604,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00605,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | radiothérapie thoracique,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00606,2,sulfamides | latex,sulfamides: éruption cutanée maculo-papuleuse | latex: urticaire de contact/anaphylaxie,antibiotique | matériau médical,grave,1,2,greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00607,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,greffe organe solide,1,0,0,2,warfarine | metformine,antidiabétique biguanide | anticoagulant AVK,1,warfarine,4,0,0
+INT_00608,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,clopidogrel | furosémide,antiagrégant plaquettaire | diurétique de l'anse,0,aucun,4,0,0
+INT_00609,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00610,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,sertraline | atorvastatine | prednisone,hypolipémiant statine | antidépresseur ISRS | corticoïde systémique,1,prednisone,7,1,0
+INT_00611,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00612,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00613,3,pénicilline | néomycine | œufs,pénicilline: anaphylaxie IgE-médiée | néomycine: dermatite de contact | œufs: anaphylaxie systémique,antibiotique bêta-lactamine | antibiotique aminoglycoside | allergie alimentaire/excipient,grave,1,2,immunosuppresseurs (azathioprine/ciclosporine) | greffe organe solide,1,0,0,2,prednisone | amiodarone,antiarythmique classe III | corticoïde systémique,2,prednisone | amiodarone,6,0,1
+INT_00614,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00615,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,3,warfarine | furosémide | amlodipine,anticoagulant AVK | diurétique de l'anse | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00616,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | amiodarone,antidépresseur ISRS | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00617,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00618,2,néomycine | AINS,néomycine: dermatite de contact | AINS: bronchospasme/urticaire,antibiotique aminoglycoside | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,4,amiodarone | prednisone | atorvastatine | méthotrexate,corticoïde systémique | hypolipémiant statine | antiarythmique classe III | immunosuppresseur/DMARD,3,amiodarone | prednisone | méthotrexate,11,1,1
+INT_00619,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,clopidogrel | atorvastatine,hypolipémiant statine | antiagrégant plaquettaire,0,aucun,4,0,0
+INT_00620,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | ciclosporine | amiodarone,immunosuppresseur calci | hormone thyroïdienne | antiarythmique classe III,2,ciclosporine | amiodarone,7,1,1
+INT_00621,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00622,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00623,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,greffe organe solide,1,0,0,2,méthotrexate | warfarine,anticoagulant AVK | immunosuppresseur/DMARD,2,méthotrexate | warfarine,6,0,1
+INT_00624,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00625,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,antirétroviraux (cART),0,0,0,2,prednisone | oméprazole,IPP | corticoïde systémique,1,prednisone,4,0,0
+INT_00626,2,sulfamides | œufs,sulfamides: éruption cutanée maculo-papuleuse | œufs: anaphylaxie systémique,antibiotique | allergie alimentaire/excipient,grave,1,3,antirétroviraux (cART) | immunosuppresseurs (azathioprine/ciclosporine) | anticoagulants oraux (warfarine/DOAC),1,0,0,2,oméprazole | méthotrexate,IPP | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00627,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00628,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,2,antirétroviraux (cART) | chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00629,2,sulfamides | latex,sulfamides: éruption cutanée maculo-papuleuse | latex: urticaire de contact/anaphylaxie,antibiotique | matériau médical,grave,1,1,radiothérapie thoracique,0,0,0,2,ciclosporine | clopidogrel,immunosuppresseur calci | antiagrégant plaquettaire,1,ciclosporine,5,0,0
+INT_00630,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,clopidogrel | lévothyroxine | atorvastatine,hypolipémiant statine | hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,5,1,0
+INT_00631,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00632,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00633,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00634,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,clopidogrel | atorvastatine | warfarine,hypolipémiant statine | anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,7,1,0
+INT_00635,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,atorvastatine | oméprazole,hypolipémiant statine | IPP,0,aucun,3,0,0
+INT_00636,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00637,2,latex | gélatine,latex: urticaire de contact/anaphylaxie | gélatine: urticaire/angioedème,matériau médical | excipient vaccinal,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00638,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | antirétroviraux (cART),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00639,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,amlodipine | warfarine,anticoagulant AVK | antihypertenseur ICC,1,warfarine,4,0,0
+INT_00640,2,gélatine | œufs,gélatine: urticaire/angioedème | œufs: anaphylaxie systémique,excipient vaccinal | allergie alimentaire/excipient,grave,1,1,corticothérapie longue durée (>6 mois),0,0,0,2,clopidogrel | sertraline,antidépresseur ISRS | antiagrégant plaquettaire,0,aucun,4,0,0
+INT_00641,2,aluminium | sulfamides,aluminium: granulome au site injection | sulfamides: éruption cutanée maculo-papuleuse,adjuvant vaccinal | antibiotique,modérée,0,0,aucun,0,0,0,3,metformine | furosémide | clopidogrel,antiagrégant plaquettaire | antidiabétique biguanide | diurétique de l'anse,0,aucun,5,1,0
+INT_00642,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00643,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,4,méthotrexate | clopidogrel | amlodipine | oméprazole,IPP | antihypertenseur ICC | antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,7,1,0
+INT_00644,2,tétracyclines | latex,tétracyclines: photosensibilisation | latex: urticaire de contact/anaphylaxie,antibiotique | matériau médical,grave,1,2,immunosuppresseurs (azathioprine/ciclosporine) | antirétroviraux (cART),1,0,0,3,oméprazole | ciclosporine | warfarine,immunosuppresseur calci | anticoagulant AVK | IPP,2,ciclosporine | warfarine,7,1,1
+INT_00645,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,prednisone | metformine,antidiabétique biguanide | corticoïde systémique,1,prednisone,4,0,0
+INT_00646,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00647,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00648,3,gélatine | tétracyclines | sulfamides,gélatine: urticaire/angioedème | tétracyclines: photosensibilisation | sulfamides: éruption cutanée maculo-papuleuse,excipient vaccinal | antibiotique | antibiotique,modérée,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00649,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00650,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,prednisone | sertraline,antidépresseur ISRS | corticoïde systémique,1,prednisone,5,0,0
+INT_00651,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | dialyse hémodialyse,1,0,1,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00652,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,metformine | atorvastatine,antidiabétique biguanide | hypolipémiant statine,0,aucun,3,0,0
+INT_00653,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00654,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,3,chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel) | immunosuppresseurs (azathioprine/ciclosporine),1,1,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00655,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00656,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,2,greffe organe solide | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,atorvastatine | metformine,antidiabétique biguanide | hypolipémiant statine,0,aucun,3,0,0
+INT_00657,0,aucune,aucune,aucune,aucune,0,3,chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel) | antirétroviraux (cART),1,1,0,2,oméprazole | clopidogrel,antiagrégant plaquettaire | IPP,0,aucun,3,0,0
+INT_00658,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,amiodarone | metformine,antidiabétique biguanide | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00659,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,3,oméprazole | furosémide | prednisone,corticoïde systémique | IPP | diurétique de l'anse,1,prednisone,6,1,0
+INT_00660,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,4,lévothyroxine | warfarine | ramipril | amlodipine,antihypertenseur IEC | hormone thyroïdienne | anticoagulant AVK | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00661,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,3,amiodarone | metformine | sertraline,antidiabétique biguanide | antidépresseur ISRS | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00662,2,aluminium | néomycine,aluminium: granulome au site injection | néomycine: dermatite de contact,adjuvant vaccinal | antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00663,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,méthotrexate | atorvastatine,hypolipémiant statine | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00664,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,2,anticoagulants oraux (warfarine/DOAC) | dialyse hémodialyse,0,0,1,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00665,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,2,chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00666,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,4,amlodipine | ramipril | amiodarone | clopidogrel,antiagrégant plaquettaire | antihypertenseur IEC | antiarythmique classe III | antihypertenseur ICC,1,amiodarone,7,1,0
+INT_00667,0,aucune,aucune,aucune,aucune,0,3,biothérapie (anti-TNF/anti-IL) | corticothérapie longue durée (>6 mois) | antirétroviraux (cART),1,0,0,2,lévothyroxine | atorvastatine,hypolipémiant statine | hormone thyroïdienne,0,aucun,3,0,0
+INT_00668,2,pénicilline | gélatine,pénicilline: anaphylaxie IgE-médiée | gélatine: urticaire/angioedème,antibiotique bêta-lactamine | excipient vaccinal,grave,1,2,radiothérapie thoracique | greffe organe solide,1,0,0,3,oméprazole | méthotrexate | prednisone,corticoïde systémique | IPP | immunosuppresseur/DMARD,2,méthotrexate | prednisone,7,1,1
+INT_00669,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00670,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amiodarone | clopidogrel | metformine,antiagrégant plaquettaire | antidiabétique biguanide | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00671,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00672,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00673,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,4,clopidogrel | warfarine | atorvastatine | oméprazole,IPP | hypolipémiant statine | anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,8,1,0
+INT_00674,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00675,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00676,2,néomycine | aluminium,néomycine: dermatite de contact | aluminium: granulome au site injection,antibiotique aminoglycoside | adjuvant vaccinal,légère,0,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00677,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,greffe organe solide,1,0,0,2,furosémide | clopidogrel,antiagrégant plaquettaire | diurétique de l'anse,0,aucun,4,0,0
+INT_00678,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,2,lévothyroxine | atorvastatine,hypolipémiant statine | hormone thyroïdienne,0,aucun,3,0,0
+INT_00679,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00680,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,2,ramipril | furosémide,antihypertenseur IEC | diurétique de l'anse,0,aucun,3,0,0
+INT_00681,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,méthotrexate | sertraline | lévothyroxine,hormone thyroïdienne | antidépresseur ISRS | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00682,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,5,oméprazole | méthotrexate | metformine | sertraline | furosémide,antidiabétique biguanide | IPP | diurétique de l'anse | antidépresseur ISRS | immunosuppresseur/DMARD,1,méthotrexate,9,1,0
+INT_00683,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00684,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,2,warfarine | ciclosporine,immunosuppresseur calci | anticoagulant AVK,2,warfarine | ciclosporine,6,0,1
+INT_00685,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00686,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00687,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00688,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00689,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,méthotrexate | warfarine,anticoagulant AVK | immunosuppresseur/DMARD,2,méthotrexate | warfarine,6,0,1
+INT_00690,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ramipril | metformine,antidiabétique biguanide | antihypertenseur IEC,0,aucun,2,0,0
+INT_00691,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00692,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,radiothérapie thoracique,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00693,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00694,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00695,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,2,antirétroviraux (cART) | anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00696,3,aluminium | œufs | céphalosporines,aluminium: granulome au site injection | œufs: anaphylaxie systémique | céphalosporines: réaction croisée pénicilline,adjuvant vaccinal | allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,sertraline | warfarine,antidépresseur ISRS | anticoagulant AVK,1,warfarine,5,0,0
+INT_00697,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,5,oméprazole | amiodarone | clopidogrel | prednisone | atorvastatine,hypolipémiant statine | antiagrégant plaquettaire | corticoïde systémique | IPP | antiarythmique classe III,2,amiodarone | prednisone,11,1,1
+INT_00698,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00699,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00700,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,greffe organe solide,1,0,0,2,clopidogrel | lévothyroxine,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00701,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00702,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00703,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,clopidogrel | lévothyroxine,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00704,2,latex | pénicilline,latex: urticaire de contact/anaphylaxie | pénicilline: anaphylaxie IgE-médiée,matériau médical | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00705,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,furosémide | atorvastatine | clopidogrel,antiagrégant plaquettaire | hypolipémiant statine | diurétique de l'anse,0,aucun,6,1,0
+INT_00706,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | ramipril,antihypertenseur IEC | IPP,0,aucun,2,0,0
+INT_00707,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,méthotrexate | metformine | ciclosporine,antidiabétique biguanide | immunosuppresseur calci | immunosuppresseur/DMARD,2,méthotrexate | ciclosporine,7,1,1
+INT_00708,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00709,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00710,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00711,3,œufs | néomycine | gélatine,œufs: anaphylaxie systémique | néomycine: dermatite de contact | gélatine: urticaire/angioedème,allergie alimentaire/excipient | antibiotique aminoglycoside | excipient vaccinal,grave,1,0,aucun,0,0,0,2,ramipril | méthotrexate,antihypertenseur IEC | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00712,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,warfarine | ramipril,antihypertenseur IEC | anticoagulant AVK,1,warfarine,4,0,0
+INT_00713,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00714,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00715,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,greffe organe solide,1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00716,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amiodarone | metformine | sertraline,antidiabétique biguanide | antidépresseur ISRS | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00717,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,atorvastatine | clopidogrel | amiodarone,hypolipémiant statine | antiarythmique classe III | antiagrégant plaquettaire,1,amiodarone,7,1,0
+INT_00718,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amlodipine | atorvastatine | amiodarone,hypolipémiant statine | antiarythmique classe III | antihypertenseur ICC,1,amiodarone,6,1,0
+INT_00719,2,gélatine | AINS,gélatine: urticaire/angioedème | AINS: bronchospasme/urticaire,excipient vaccinal | antidouleur/anti-inflammatoire,modérée,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,4,oméprazole | amlodipine | metformine | clopidogrel,antiagrégant plaquettaire | antidiabétique biguanide | IPP | antihypertenseur ICC,0,aucun,5,1,0
+INT_00720,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00721,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,oméprazole | sertraline | lévothyroxine | ramipril,hormone thyroïdienne | antihypertenseur IEC | antidépresseur ISRS | IPP,0,aucun,5,1,0
+INT_00722,2,pénicilline | gélatine,pénicilline: anaphylaxie IgE-médiée | gélatine: urticaire/angioedème,antibiotique bêta-lactamine | excipient vaccinal,grave,1,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00723,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,4,ciclosporine | méthotrexate | oméprazole | clopidogrel,antiagrégant plaquettaire | immunosuppresseur calci | IPP | immunosuppresseur/DMARD,2,ciclosporine | méthotrexate,9,1,1
+INT_00724,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,antirétroviraux (cART),0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00725,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,atorvastatine | ramipril,antihypertenseur IEC | hypolipémiant statine,0,aucun,3,0,0
+INT_00726,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00727,0,aucune,aucune,aucune,aucune,0,3,corticothérapie longue durée (>6 mois) | biothérapie (anti-TNF/anti-IL) | greffe organe solide,1,0,0,2,lévothyroxine | oméprazole,hormone thyroïdienne | IPP,0,aucun,2,0,0
+INT_00728,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,2,chimiothérapie (carboplatine/paclitaxel) | greffe organe solide,1,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00729,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00730,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,ciclosporine | warfarine,immunosuppresseur calci | anticoagulant AVK,2,ciclosporine | warfarine,6,0,1
+INT_00731,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00732,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00733,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00734,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | chimiothérapie (carboplatine/paclitaxel),1,1,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00735,0,aucune,aucune,aucune,aucune,0,2,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00736,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,3,furosémide | amlodipine | méthotrexate,immunosuppresseur/DMARD | diurétique de l'anse | antihypertenseur ICC,1,méthotrexate,6,1,0
+INT_00737,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | biothérapie (anti-TNF/anti-IL),1,1,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00738,2,néomycine | sulfamides,néomycine: dermatite de contact | sulfamides: éruption cutanée maculo-papuleuse,antibiotique aminoglycoside | antibiotique,modérée,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,4,ciclosporine | atorvastatine | oméprazole | sertraline,immunosuppresseur calci | antidépresseur ISRS | IPP | hypolipémiant statine,1,ciclosporine,8,1,0
+INT_00739,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00740,2,latex | tétracyclines,latex: urticaire de contact/anaphylaxie | tétracyclines: photosensibilisation,matériau médical | antibiotique,grave,1,3,radiothérapie thoracique | corticothérapie longue durée (>6 mois) | chirurgie majeure récente (<6 mois),0,1,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00741,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | biothérapie (anti-TNF/anti-IL),1,0,0,3,atorvastatine | prednisone | amlodipine,hypolipémiant statine | corticoïde systémique | antihypertenseur ICC,1,prednisone,6,1,0
+INT_00742,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00743,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00744,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,2,amlodipine | prednisone,corticoïde systémique | antihypertenseur ICC,1,prednisone,4,0,0
+INT_00745,2,AINS | pénicilline,AINS: bronchospasme/urticaire | pénicilline: anaphylaxie IgE-médiée,antidouleur/anti-inflammatoire | antibiotique bêta-lactamine,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00746,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00747,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,2,metformine | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne,0,aucun,2,0,0
+INT_00748,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00749,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00750,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,3,antirétroviraux (cART) | chimiothérapie (carboplatine/paclitaxel) | corticothérapie longue durée (>6 mois),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00751,2,gélatine | aluminium,gélatine: urticaire/angioedème | aluminium: granulome au site injection,excipient vaccinal | adjuvant vaccinal,modérée,0,2,chirurgie majeure récente (<6 mois) | greffe organe solide,1,1,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00752,0,aucune,aucune,aucune,aucune,0,3,chimiothérapie (carboplatine/paclitaxel) | greffe organe solide | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00753,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00754,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00755,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00756,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,5,clopidogrel | amiodarone | warfarine | sertraline | prednisone,corticoïde systémique | antiagrégant plaquettaire | antidépresseur ISRS | anticoagulant AVK | antiarythmique classe III,3,amiodarone | warfarine | prednisone,13,1,1
+INT_00757,3,tétracyclines | céphalosporines | AINS,tétracyclines: photosensibilisation | céphalosporines: réaction croisée pénicilline | AINS: bronchospasme/urticaire,antibiotique | antibiotique bêta-lactamine | antidouleur/anti-inflammatoire,modérée,0,2,antirétroviraux (cART) | anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00758,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00759,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,antirétroviraux (cART),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00760,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00761,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,oméprazole | ciclosporine | furosémide,immunosuppresseur calci | IPP | diurétique de l'anse,1,ciclosporine,6,1,0
+INT_00762,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,2,clopidogrel | oméprazole,IPP | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00763,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00764,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,méthotrexate | atorvastatine | clopidogrel | metformine,antidiabétique biguanide | hypolipémiant statine | antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,8,1,0
+INT_00765,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,furosémide | warfarine | atorvastatine,hypolipémiant statine | anticoagulant AVK | diurétique de l'anse,1,warfarine,7,1,0
+INT_00766,2,œufs | gélatine,œufs: anaphylaxie systémique | gélatine: urticaire/angioedème,allergie alimentaire/excipient | excipient vaccinal,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,4,lévothyroxine | méthotrexate | sertraline | furosémide,antidépresseur ISRS | hormone thyroïdienne | diurétique de l'anse | immunosuppresseur/DMARD,1,méthotrexate,8,1,0
+INT_00767,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,furosémide | ramipril,antihypertenseur IEC | diurétique de l'anse,0,aucun,3,0,0
+INT_00768,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00769,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00770,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00771,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00772,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,furosémide | prednisone,corticoïde systémique | diurétique de l'anse,1,prednisone,5,0,0
+INT_00773,3,tétracyclines | AINS | sulfamides,tétracyclines: photosensibilisation | AINS: bronchospasme/urticaire | sulfamides: éruption cutanée maculo-papuleuse,antibiotique | antidouleur/anti-inflammatoire | antibiotique,modérée,0,0,aucun,0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00774,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,amiodarone | clopidogrel,antiagrégant plaquettaire | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00775,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,ramipril | warfarine | méthotrexate | clopidogrel,antihypertenseur IEC | anticoagulant AVK | antiagrégant plaquettaire | immunosuppresseur/DMARD,2,warfarine | méthotrexate,9,1,1
+INT_00776,3,pénicilline | AINS | œufs,pénicilline: anaphylaxie IgE-médiée | AINS: bronchospasme/urticaire | œufs: anaphylaxie systémique,antibiotique bêta-lactamine | antidouleur/anti-inflammatoire | allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,2,lévothyroxine | prednisone,hormone thyroïdienne | corticoïde systémique,1,prednisone,4,0,0
+INT_00777,2,pénicilline | néomycine,pénicilline: anaphylaxie IgE-médiée | néomycine: dermatite de contact,antibiotique bêta-lactamine | antibiotique aminoglycoside,grave,1,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00778,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00779,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne,0,aucun,2,0,0
+INT_00780,2,céphalosporines | pénicilline,céphalosporines: réaction croisée pénicilline | pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00781,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00782,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,3,ciclosporine | atorvastatine | furosémide,immunosuppresseur calci | diurétique de l'anse | hypolipémiant statine,1,ciclosporine,7,1,0
+INT_00783,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00784,0,aucune,aucune,aucune,aucune,0,3,immunosuppresseurs (azathioprine/ciclosporine) | greffe organe solide | chirurgie majeure récente (<6 mois),1,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00785,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00786,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00787,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,furosémide | metformine | sertraline | warfarine,antidiabétique biguanide | antidépresseur ISRS | anticoagulant AVK | diurétique de l'anse,1,warfarine,8,1,0
+INT_00788,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,lévothyroxine | warfarine,hormone thyroïdienne | anticoagulant AVK,1,warfarine,4,0,0
+INT_00789,2,néomycine | AINS,néomycine: dermatite de contact | AINS: bronchospasme/urticaire,antibiotique aminoglycoside | antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,2,metformine | furosémide,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00790,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00791,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,2,amlodipine | ciclosporine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00792,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,2,lévothyroxine | prednisone,hormone thyroïdienne | corticoïde systémique,1,prednisone,4,0,0
+INT_00793,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,2,méthotrexate | atorvastatine,hypolipémiant statine | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00794,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,warfarine | atorvastatine,hypolipémiant statine | anticoagulant AVK,1,warfarine,5,0,0
+INT_00795,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,corticothérapie longue durée (>6 mois),0,0,0,3,oméprazole | amlodipine | atorvastatine,hypolipémiant statine | IPP | antihypertenseur ICC,0,aucun,4,1,0
+INT_00796,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00797,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,radiothérapie thoracique,0,0,0,2,atorvastatine | furosémide,hypolipémiant statine | diurétique de l'anse,0,aucun,4,0,0
+INT_00798,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,ciclosporine | warfarine | metformine | ramipril,antidiabétique biguanide | immunosuppresseur calci | anticoagulant AVK | antihypertenseur IEC,2,ciclosporine | warfarine,8,1,1
+INT_00799,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00800,2,AINS | pénicilline,AINS: bronchospasme/urticaire | pénicilline: anaphylaxie IgE-médiée,antidouleur/anti-inflammatoire | antibiotique bêta-lactamine,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00801,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,corticothérapie longue durée (>6 mois),0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00802,0,aucune,aucune,aucune,aucune,0,3,chimiothérapie (carboplatine/paclitaxel) | immunosuppresseurs (azathioprine/ciclosporine) | greffe organe solide,1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00803,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,3,prednisone | furosémide | amiodarone,antiarythmique classe III | corticoïde systémique | diurétique de l'anse,2,prednisone | amiodarone,8,1,1
+INT_00804,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00805,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,3,lévothyroxine | prednisone | sertraline,antidépresseur ISRS | hormone thyroïdienne | corticoïde systémique,1,prednisone,6,1,0
+INT_00806,2,céphalosporines | néomycine,céphalosporines: réaction croisée pénicilline | néomycine: dermatite de contact,antibiotique bêta-lactamine | antibiotique aminoglycoside,modérée,0,3,chimiothérapie (carboplatine/paclitaxel) | corticothérapie longue durée (>6 mois) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,warfarine | oméprazole,anticoagulant AVK | IPP,1,warfarine,4,0,0
+INT_00807,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,ramipril | lévothyroxine,antihypertenseur IEC | hormone thyroïdienne,0,aucun,2,0,0
+INT_00808,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00809,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00810,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00811,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,4,atorvastatine | amlodipine | warfarine | ramipril,antihypertenseur IEC | hypolipémiant statine | anticoagulant AVK | antihypertenseur ICC,1,warfarine,7,1,0
+INT_00812,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,immunosuppresseurs (azathioprine/ciclosporine) | anticoagulants oraux (warfarine/DOAC),1,0,0,3,clopidogrel | sertraline | amiodarone,antidépresseur ISRS | antiarythmique classe III | antiagrégant plaquettaire,1,amiodarone,7,1,0
+INT_00813,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00814,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,warfarine | ciclosporine | metformine | prednisone,antidiabétique biguanide | immunosuppresseur calci | anticoagulant AVK | corticoïde systémique,3,warfarine | ciclosporine | prednisone,10,1,1
+INT_00815,2,tétracyclines | néomycine,tétracyclines: photosensibilisation | néomycine: dermatite de contact,antibiotique | antibiotique aminoglycoside,légère,0,2,greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00816,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amlodipine,antihypertenseur ICC,0,aucun,1,0,0
+INT_00817,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,atorvastatine | lévothyroxine | clopidogrel,hypolipémiant statine | hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,5,1,0
+INT_00818,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00819,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00820,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,prednisone | amiodarone,antiarythmique classe III | corticoïde systémique,2,prednisone | amiodarone,6,0,1
+INT_00821,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00822,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ciclosporine | ramipril | oméprazole,antihypertenseur IEC | immunosuppresseur calci | IPP,1,ciclosporine,5,1,0
+INT_00823,0,aucune,aucune,aucune,aucune,0,3,antirétroviraux (cART) | chimiothérapie (carboplatine/paclitaxel) | dialyse hémodialyse,1,0,1,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00824,2,latex | œufs,latex: urticaire de contact/anaphylaxie | œufs: anaphylaxie systémique,matériau médical | allergie alimentaire/excipient,grave,1,1,antirétroviraux (cART),0,0,0,2,metformine | ramipril,antidiabétique biguanide | antihypertenseur IEC,0,aucun,2,0,0
+INT_00825,2,sulfamides | céphalosporines,sulfamides: éruption cutanée maculo-papuleuse | céphalosporines: réaction croisée pénicilline,antibiotique | antibiotique bêta-lactamine,modérée,0,1,radiothérapie thoracique,0,0,0,4,ramipril | sertraline | prednisone | lévothyroxine,hormone thyroïdienne | antihypertenseur IEC | antidépresseur ISRS | corticoïde systémique,1,prednisone,7,1,0
+INT_00826,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,4,amiodarone | atorvastatine | oméprazole | prednisone,IPP | corticoïde systémique | hypolipémiant statine | antiarythmique classe III,2,amiodarone | prednisone,9,1,1
+INT_00827,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00828,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,furosémide | metformine,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00829,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00830,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,méthotrexate | sertraline | oméprazole | amlodipine | clopidogrel,antiagrégant plaquettaire | IPP | antihypertenseur ICC | antidépresseur ISRS | immunosuppresseur/DMARD,1,méthotrexate,9,1,0
+INT_00831,2,néomycine | latex,néomycine: dermatite de contact | latex: urticaire de contact/anaphylaxie,antibiotique aminoglycoside | matériau médical,grave,1,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00832,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00833,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00834,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,2,oméprazole | atorvastatine,hypolipémiant statine | IPP,0,aucun,3,0,0
+INT_00835,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00836,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | anticoagulants oraux (warfarine/DOAC),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00837,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00838,3,latex | œufs | pénicilline,latex: urticaire de contact/anaphylaxie | œufs: anaphylaxie systémique | pénicilline: anaphylaxie IgE-médiée,matériau médical | allergie alimentaire/excipient | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,5,atorvastatine | furosémide | clopidogrel | amlodipine | lévothyroxine,hypolipémiant statine | antiagrégant plaquettaire | diurétique de l'anse | antihypertenseur ICC | hormone thyroïdienne,0,aucun,8,1,0
+INT_00839,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,2,greffe organe solide | antirétroviraux (cART),1,0,0,3,amlodipine | méthotrexate | ciclosporine,immunosuppresseur/DMARD | immunosuppresseur calci | antihypertenseur ICC,2,méthotrexate | ciclosporine,7,1,1
+INT_00840,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,sertraline | amlodipine | prednisone,antidépresseur ISRS | corticoïde systémique | antihypertenseur ICC,1,prednisone,6,1,0
+INT_00841,2,tétracyclines | néomycine,tétracyclines: photosensibilisation | néomycine: dermatite de contact,antibiotique | antibiotique aminoglycoside,légère,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,3,ciclosporine | oméprazole | warfarine,immunosuppresseur calci | anticoagulant AVK | IPP,2,ciclosporine | warfarine,7,1,1
+INT_00842,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,ciclosporine | amlodipine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00843,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00844,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,5,ciclosporine | atorvastatine | amlodipine | oméprazole | furosémide,immunosuppresseur calci | hypolipémiant statine | IPP | diurétique de l'anse | antihypertenseur ICC,1,ciclosporine,9,1,0
+INT_00845,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,warfarine | atorvastatine,hypolipémiant statine | anticoagulant AVK,1,warfarine,5,0,0
+INT_00846,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,1,greffe organe solide,1,0,0,2,méthotrexate | clopidogrel,antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00847,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,amlodipine | atorvastatine,hypolipémiant statine | antihypertenseur ICC,0,aucun,3,0,0
+INT_00848,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,ciclosporine | amiodarone | sertraline,immunosuppresseur calci | antidépresseur ISRS | antiarythmique classe III,2,ciclosporine | amiodarone,8,1,1
+INT_00849,0,aucune,aucune,aucune,aucune,0,3,greffe organe solide | immunosuppresseurs (azathioprine/ciclosporine) | anticoagulants oraux (warfarine/DOAC),1,0,0,3,amiodarone | sertraline | metformine,antidiabétique biguanide | antidépresseur ISRS | antiarythmique classe III,1,amiodarone,6,1,0
+INT_00850,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,greffe organe solide,1,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00851,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00852,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,radiothérapie thoracique,0,0,0,3,clopidogrel | amlodipine | ciclosporine,immunosuppresseur calci | antiagrégant plaquettaire | antihypertenseur ICC,1,ciclosporine,6,1,0
+INT_00853,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,greffe organe solide,1,0,0,5,warfarine | prednisone | méthotrexate | amiodarone | ramipril,corticoïde systémique | anticoagulant AVK | immunosuppresseur/DMARD | antihypertenseur IEC | antiarythmique classe III,4,warfarine | prednisone | méthotrexate | amiodarone,13,1,1
+INT_00854,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00855,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00856,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,ciclosporine | warfarine,immunosuppresseur calci | anticoagulant AVK,2,ciclosporine | warfarine,6,0,1
+INT_00857,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,5,furosémide | ramipril | prednisone | amlodipine | amiodarone,corticoïde systémique | diurétique de l'anse | antihypertenseur ICC | antihypertenseur IEC | antiarythmique classe III,2,prednisone | amiodarone,10,1,1
+INT_00858,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00859,2,aluminium | latex,aluminium: granulome au site injection | latex: urticaire de contact/anaphylaxie,adjuvant vaccinal | matériau médical,grave,1,3,chirurgie majeure récente (<6 mois) | biothérapie (anti-TNF/anti-IL) | anticoagulants oraux (warfarine/DOAC),1,1,0,2,ramipril | amlodipine,antihypertenseur IEC | antihypertenseur ICC,0,aucun,2,0,0
+INT_00860,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,3,ciclosporine | furosémide | atorvastatine,immunosuppresseur calci | diurétique de l'anse | hypolipémiant statine,1,ciclosporine,7,1,0
+INT_00861,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00862,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,4,méthotrexate | prednisone | ramipril | warfarine,antihypertenseur IEC | anticoagulant AVK | corticoïde systémique | immunosuppresseur/DMARD,3,méthotrexate | prednisone | warfarine,10,1,1
+INT_00863,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,greffe organe solide,1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00864,3,tétracyclines | sulfamides | gélatine,tétracyclines: photosensibilisation | sulfamides: éruption cutanée maculo-papuleuse | gélatine: urticaire/angioedème,antibiotique | antibiotique | excipient vaccinal,modérée,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00865,2,pénicilline | gélatine,pénicilline: anaphylaxie IgE-médiée | gélatine: urticaire/angioedème,antibiotique bêta-lactamine | excipient vaccinal,grave,1,1,chirurgie majeure récente (<6 mois),0,1,0,3,méthotrexate | amiodarone | prednisone,corticoïde systémique | antiarythmique classe III | immunosuppresseur/DMARD,3,méthotrexate | amiodarone | prednisone,9,1,1
+INT_00866,3,sulfamides | pénicilline | latex,sulfamides: éruption cutanée maculo-papuleuse | pénicilline: anaphylaxie IgE-médiée | latex: urticaire de contact/anaphylaxie,antibiotique | antibiotique bêta-lactamine | matériau médical,grave,1,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00867,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,radiothérapie thoracique,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00868,0,aucune,aucune,aucune,aucune,0,2,dialyse hémodialyse | immunosuppresseurs (azathioprine/ciclosporine),1,0,1,2,lévothyroxine | metformine,antidiabétique biguanide | hormone thyroïdienne,0,aucun,2,0,0
+INT_00869,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,2,warfarine | amlodipine,anticoagulant AVK | antihypertenseur ICC,1,warfarine,4,0,0
+INT_00870,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,metformine | atorvastatine,antidiabétique biguanide | hypolipémiant statine,0,aucun,3,0,0
+INT_00871,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,furosémide | lévothyroxine,hormone thyroïdienne | diurétique de l'anse,0,aucun,3,0,0
+INT_00872,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,3,prednisone | ciclosporine | oméprazole,IPP | immunosuppresseur calci | corticoïde systémique,2,prednisone | ciclosporine,7,1,1
+INT_00873,0,aucune,aucune,aucune,aucune,0,3,immunosuppresseurs (azathioprine/ciclosporine) | antirétroviraux (cART) | chimiothérapie (carboplatine/paclitaxel),1,0,0,3,sertraline | amlodipine | oméprazole,antidépresseur ISRS | IPP | antihypertenseur ICC,0,aucun,4,1,0
+INT_00874,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,metformine | ciclosporine,antidiabétique biguanide | immunosuppresseur calci,1,ciclosporine,4,0,0
+INT_00875,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00876,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,4,furosémide | amiodarone | warfarine | amlodipine,antiarythmique classe III | anticoagulant AVK | diurétique de l'anse | antihypertenseur ICC,2,amiodarone | warfarine,9,1,1
+INT_00877,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,clopidogrel | atorvastatine | ramipril,antihypertenseur IEC | hypolipémiant statine | antiagrégant plaquettaire,0,aucun,5,1,0
+INT_00878,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,corticothérapie longue durée (>6 mois),0,0,0,4,amlodipine | prednisone | metformine | furosémide,diurétique de l'anse | antidiabétique biguanide | corticoïde systémique | antihypertenseur ICC,1,prednisone,7,1,0
+INT_00879,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,4,amlodipine | ramipril | metformine | warfarine,antidiabétique biguanide | antihypertenseur IEC | anticoagulant AVK | antihypertenseur ICC,1,warfarine,6,1,0
+INT_00880,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,atorvastatine | metformine,antidiabétique biguanide | hypolipémiant statine,0,aucun,3,0,0
+INT_00881,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00882,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00883,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,lévothyroxine | warfarine,hormone thyroïdienne | anticoagulant AVK,1,warfarine,4,0,0
+INT_00884,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | greffe organe solide,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00885,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00886,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00887,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | atorvastatine,antidiabétique biguanide | hypolipémiant statine,0,aucun,3,0,0
+INT_00888,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00889,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00890,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,3,clopidogrel | ciclosporine | lévothyroxine,immunosuppresseur calci | hormone thyroïdienne | antiagrégant plaquettaire,1,ciclosporine,6,1,0
+INT_00891,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | lévothyroxine,hormone thyroïdienne | IPP,0,aucun,2,0,0
+INT_00892,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00893,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,prednisone | amiodarone,antiarythmique classe III | corticoïde systémique,2,prednisone | amiodarone,6,0,1
+INT_00894,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00895,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00896,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | antirétroviraux (cART),0,0,0,1,méthotrexate,immunosuppresseur/DMARD,1,méthotrexate,3,0,0
+INT_00897,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00898,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,dialyse hémodialyse,0,0,1,3,amiodarone | méthotrexate | lévothyroxine,hormone thyroïdienne | antiarythmique classe III | immunosuppresseur/DMARD,2,amiodarone | méthotrexate,7,1,1
+INT_00899,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,clopidogrel | lévothyroxine,hormone thyroïdienne | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00900,3,tétracyclines | aluminium | œufs,tétracyclines: photosensibilisation | aluminium: granulome au site injection | œufs: anaphylaxie systémique,antibiotique | adjuvant vaccinal | allergie alimentaire/excipient,grave,1,2,corticothérapie longue durée (>6 mois) | chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00901,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,radiothérapie thoracique,0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00902,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00903,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00904,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00905,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,radiothérapie thoracique | dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00906,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,1,anticoagulants oraux (warfarine/DOAC),0,0,0,3,atorvastatine | méthotrexate | amlodipine,hypolipémiant statine | antihypertenseur ICC | immunosuppresseur/DMARD,1,méthotrexate,6,1,0
+INT_00907,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,2,ciclosporine | oméprazole,immunosuppresseur calci | IPP,1,ciclosporine,4,0,0
+INT_00908,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,2,furosémide | amlodipine,diurétique de l'anse | antihypertenseur ICC,0,aucun,3,0,0
+INT_00909,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00910,2,tétracyclines | sulfamides,tétracyclines: photosensibilisation | sulfamides: éruption cutanée maculo-papuleuse,antibiotique | antibiotique,modérée,0,1,chirurgie majeure récente (<6 mois),0,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00911,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,2,biothérapie (anti-TNF/anti-IL) | radiothérapie thoracique,1,0,0,2,amiodarone | furosémide,antiarythmique classe III | diurétique de l'anse,1,amiodarone,5,0,0
+INT_00912,0,aucune,aucune,aucune,aucune,0,2,radiothérapie thoracique | chimiothérapie (carboplatine/paclitaxel),1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00913,0,aucune,aucune,aucune,aucune,0,2,antirétroviraux (cART) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00914,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,3,furosémide | prednisone | ramipril,corticoïde systémique | antihypertenseur IEC | diurétique de l'anse,1,prednisone,6,1,0
+INT_00915,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,2,antirétroviraux (cART) | biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00916,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,warfarine | ramipril,antihypertenseur IEC | anticoagulant AVK,1,warfarine,4,0,0
+INT_00917,3,gélatine | néomycine | œufs,gélatine: urticaire/angioedème | néomycine: dermatite de contact | œufs: anaphylaxie systémique,excipient vaccinal | antibiotique aminoglycoside | allergie alimentaire/excipient,grave,1,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00918,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,2,atorvastatine | ciclosporine,hypolipémiant statine | immunosuppresseur calci,1,ciclosporine,5,0,0
+INT_00919,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,ramipril | amiodarone | sertraline | méthotrexate,antihypertenseur IEC | antidépresseur ISRS | antiarythmique classe III | immunosuppresseur/DMARD,2,amiodarone | méthotrexate,9,1,1
+INT_00920,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00921,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,2,atorvastatine | sertraline,hypolipémiant statine | antidépresseur ISRS,0,aucun,4,0,0
+INT_00922,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00923,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00924,2,tétracyclines | sulfamides,tétracyclines: photosensibilisation | sulfamides: éruption cutanée maculo-papuleuse,antibiotique | antibiotique,modérée,0,0,aucun,0,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00925,2,néomycine | pénicilline,néomycine: dermatite de contact | pénicilline: anaphylaxie IgE-médiée,antibiotique aminoglycoside | antibiotique bêta-lactamine,grave,1,1,biothérapie (anti-TNF/anti-IL),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00926,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,furosémide | ramipril | sertraline | méthotrexate | clopidogrel,antiagrégant plaquettaire | diurétique de l'anse | antidépresseur ISRS | immunosuppresseur/DMARD | antihypertenseur IEC,1,méthotrexate,10,1,0
+INT_00927,0,aucune,aucune,aucune,aucune,0,3,anticoagulants oraux (warfarine/DOAC) | immunosuppresseurs (azathioprine/ciclosporine) | dialyse hémodialyse,1,0,1,3,méthotrexate | prednisone | sertraline,antidépresseur ISRS | corticoïde systémique | immunosuppresseur/DMARD,2,méthotrexate | prednisone,8,1,1
+INT_00928,0,aucune,aucune,aucune,aucune,0,1,greffe organe solide,1,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00929,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,5,prednisone | warfarine | amlodipine | méthotrexate | metformine,antidiabétique biguanide | corticoïde systémique | antihypertenseur ICC | anticoagulant AVK | immunosuppresseur/DMARD,3,prednisone | warfarine | méthotrexate,11,1,1
+INT_00930,0,aucune,aucune,aucune,aucune,0,1,dialyse hémodialyse,0,0,1,2,metformine | warfarine,antidiabétique biguanide | anticoagulant AVK,1,warfarine,4,0,0
+INT_00931,2,aluminium | tétracyclines,aluminium: granulome au site injection | tétracyclines: photosensibilisation,adjuvant vaccinal | antibiotique,légère,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,5,oméprazole | méthotrexate | furosémide | ramipril | sertraline,IPP | diurétique de l'anse | antidépresseur ISRS | immunosuppresseur/DMARD | antihypertenseur IEC,1,méthotrexate,9,1,0
+INT_00932,0,aucune,aucune,aucune,aucune,0,1,radiothérapie thoracique,0,0,0,1,prednisone,corticoïde systémique,1,prednisone,3,0,0
+INT_00933,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00934,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,oméprazole | ramipril,antihypertenseur IEC | IPP,0,aucun,2,0,0
+INT_00935,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00936,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00937,3,aluminium | latex | sulfamides,aluminium: granulome au site injection | latex: urticaire de contact/anaphylaxie | sulfamides: éruption cutanée maculo-papuleuse,adjuvant vaccinal | matériau médical | antibiotique,grave,1,1,greffe organe solide,1,0,0,2,warfarine | lévothyroxine,hormone thyroïdienne | anticoagulant AVK,1,warfarine,4,0,0
+INT_00938,1,néomycine,néomycine: dermatite de contact,antibiotique aminoglycoside,légère,0,1,radiothérapie thoracique,0,0,0,4,warfarine | furosémide | prednisone | ramipril,corticoïde systémique | antihypertenseur IEC | anticoagulant AVK | diurétique de l'anse,2,warfarine | prednisone,9,1,1
+INT_00939,0,aucune,aucune,aucune,aucune,0,2,chirurgie majeure récente (<6 mois) | anticoagulants oraux (warfarine/DOAC),0,1,0,1,furosémide,diurétique de l'anse,0,aucun,2,0,0
+INT_00940,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00941,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,1,sertraline,antidépresseur ISRS,0,aucun,2,0,0
+INT_00942,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,2,méthotrexate | metformine,antidiabétique biguanide | immunosuppresseur/DMARD,1,méthotrexate,4,0,0
+INT_00943,3,gélatine | pénicilline | latex,gélatine: urticaire/angioedème | pénicilline: anaphylaxie IgE-médiée | latex: urticaire de contact/anaphylaxie,excipient vaccinal | antibiotique bêta-lactamine | matériau médical,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00944,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,amlodipine | ramipril | oméprazole,antihypertenseur IEC | IPP | antihypertenseur ICC,0,aucun,3,1,0
+INT_00945,0,aucune,aucune,aucune,aucune,0,2,biothérapie (anti-TNF/anti-IL) | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,ciclosporine,immunosuppresseur calci,1,ciclosporine,3,0,0
+INT_00946,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | biothérapie (anti-TNF/anti-IL),1,0,0,4,warfarine | lévothyroxine | amiodarone | amlodipine,hormone thyroïdienne | anticoagulant AVK | antiarythmique classe III | antihypertenseur ICC,2,warfarine | amiodarone,8,1,1
+INT_00947,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,2,greffe organe solide | immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,ramipril,antihypertenseur IEC,0,aucun,1,0,0
+INT_00948,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00949,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00950,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00951,0,aucune,aucune,aucune,aucune,0,3,chimiothérapie (carboplatine/paclitaxel) | anticoagulants oraux (warfarine/DOAC) | dialyse hémodialyse,1,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00952,1,céphalosporines,céphalosporines: réaction croisée pénicilline,antibiotique bêta-lactamine,modérée,0,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00953,2,œufs | gélatine,œufs: anaphylaxie systémique | gélatine: urticaire/angioedème,allergie alimentaire/excipient | excipient vaccinal,grave,1,0,aucun,0,0,0,2,lévothyroxine | oméprazole,hormone thyroïdienne | IPP,0,aucun,2,0,0
+INT_00954,0,aucune,aucune,aucune,aucune,0,2,chimiothérapie (carboplatine/paclitaxel) | radiothérapie thoracique,1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00955,0,aucune,aucune,aucune,aucune,0,1,biothérapie (anti-TNF/anti-IL),1,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00956,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,3,immunosuppresseurs (azathioprine/ciclosporine) | greffe organe solide | dialyse hémodialyse,1,0,1,2,ciclosporine | amlodipine,immunosuppresseur calci | antihypertenseur ICC,1,ciclosporine,4,0,0
+INT_00957,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00958,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,sertraline | méthotrexate,antidépresseur ISRS | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00959,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | antirétroviraux (cART),1,0,0,3,oméprazole | atorvastatine | furosémide,hypolipémiant statine | IPP | diurétique de l'anse,0,aucun,5,1,0
+INT_00960,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amlodipine | amiodarone,antiarythmique classe III | antihypertenseur ICC,1,amiodarone,4,0,0
+INT_00961,0,aucune,aucune,aucune,aucune,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00962,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amiodarone | sertraline,antidépresseur ISRS | antiarythmique classe III,1,amiodarone,5,0,0
+INT_00963,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00964,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00965,1,AINS,AINS: bronchospasme/urticaire,antidouleur/anti-inflammatoire,modérée,0,1,anticoagulants oraux (warfarine/DOAC),0,0,0,2,warfarine | amiodarone,anticoagulant AVK | antiarythmique classe III,2,warfarine | amiodarone,6,0,1
+INT_00966,2,tétracyclines | néomycine,tétracyclines: photosensibilisation | néomycine: dermatite de contact,antibiotique | antibiotique aminoglycoside,légère,0,0,aucun,0,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00967,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,prednisone | furosémide | warfarine,anticoagulant AVK | corticoïde systémique | diurétique de l'anse,2,prednisone | warfarine,8,1,1
+INT_00968,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,metformine | furosémide,antidiabétique biguanide | diurétique de l'anse,0,aucun,3,0,0
+INT_00969,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,warfarine,anticoagulant AVK,1,warfarine,3,0,0
+INT_00970,3,œufs | néomycine | pénicilline,œufs: anaphylaxie systémique | néomycine: dermatite de contact | pénicilline: anaphylaxie IgE-médiée,allergie alimentaire/excipient | antibiotique aminoglycoside | antibiotique bêta-lactamine,grave,1,0,aucun,0,0,0,1,metformine,antidiabétique biguanide,0,aucun,1,0,0
+INT_00971,0,aucune,aucune,aucune,aucune,0,1,chirurgie majeure récente (<6 mois),0,1,0,2,metformine | clopidogrel,antidiabétique biguanide | antiagrégant plaquettaire,0,aucun,3,0,0
+INT_00972,1,pénicilline,pénicilline: anaphylaxie IgE-médiée,antibiotique bêta-lactamine,grave,1,2,chirurgie majeure récente (<6 mois) | immunosuppresseurs (azathioprine/ciclosporine),1,1,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00973,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | lévothyroxine | oméprazole,hormone thyroïdienne | anticoagulant AVK | IPP,1,warfarine,5,1,0
+INT_00974,0,aucune,aucune,aucune,aucune,0,1,corticothérapie longue durée (>6 mois),0,0,0,3,amlodipine | oméprazole | furosémide,diurétique de l'anse | IPP | antihypertenseur ICC,0,aucun,4,1,0
+INT_00975,0,aucune,aucune,aucune,aucune,0,3,corticothérapie longue durée (>6 mois) | biothérapie (anti-TNF/anti-IL) | antirétroviraux (cART),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00976,1,latex,latex: urticaire de contact/anaphylaxie,matériau médical,grave,1,2,corticothérapie longue durée (>6 mois) | chirurgie majeure récente (<6 mois),0,1,0,2,amiodarone | lévothyroxine,hormone thyroïdienne | antiarythmique classe III,1,amiodarone,4,0,0
+INT_00977,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,0,aucun,aucune,0,aucun,0,0,0
+INT_00978,1,œufs,œufs: anaphylaxie systémique,allergie alimentaire/excipient,grave,1,0,aucun,0,0,0,1,atorvastatine,hypolipémiant statine,0,aucun,2,0,0
+INT_00979,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,2,corticothérapie longue durée (>6 mois) | dialyse hémodialyse,0,0,1,4,metformine | prednisone | furosémide | sertraline,antidiabétique biguanide | antidépresseur ISRS | corticoïde systémique | diurétique de l'anse,1,prednisone,8,1,0
+INT_00980,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,metformine | warfarine | sertraline | ciclosporine,antidiabétique biguanide | immunosuppresseur calci | antidépresseur ISRS | anticoagulant AVK,2,warfarine | ciclosporine,9,1,1
+INT_00981,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,4,ramipril | atorvastatine | amiodarone | ciclosporine,antihypertenseur IEC | hypolipémiant statine | immunosuppresseur calci | antiarythmique classe III,2,amiodarone | ciclosporine,9,1,1
+INT_00982,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,lévothyroxine | méthotrexate | ramipril,antihypertenseur IEC | hormone thyroïdienne | immunosuppresseur/DMARD,1,méthotrexate,5,1,0
+INT_00983,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,0,aucun,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00984,0,aucune,aucune,aucune,aucune,0,2,greffe organe solide | chimiothérapie (carboplatine/paclitaxel),1,0,0,3,prednisone | clopidogrel | lévothyroxine,antiagrégant plaquettaire | hormone thyroïdienne | corticoïde systémique,1,prednisone,6,1,0
+INT_00985,0,aucune,aucune,aucune,aucune,0,2,immunosuppresseurs (azathioprine/ciclosporine) | chirurgie majeure récente (<6 mois),1,1,0,3,warfarine | sertraline | amiodarone,antidépresseur ISRS | anticoagulant AVK | antiarythmique classe III,2,warfarine | amiodarone,8,1,1
+INT_00986,1,tétracyclines,tétracyclines: photosensibilisation,antibiotique,légère,0,1,radiothérapie thoracique,0,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00987,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,3,warfarine | clopidogrel | ramipril,antihypertenseur IEC | anticoagulant AVK | antiagrégant plaquettaire,1,warfarine,6,1,0
+INT_00988,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,1,dialyse hémodialyse,0,0,1,0,aucun,aucune,0,aucun,0,0,0
+INT_00989,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,oméprazole | prednisone,corticoïde systémique | IPP,1,prednisone,4,0,0
+INT_00990,0,aucune,aucune,aucune,aucune,0,1,antirétroviraux (cART),0,0,0,1,clopidogrel,antiagrégant plaquettaire,0,aucun,2,0,0
+INT_00991,0,aucune,aucune,aucune,aucune,0,1,chimiothérapie (carboplatine/paclitaxel),1,0,0,3,furosémide | metformine | lévothyroxine,antidiabétique biguanide | hormone thyroïdienne | diurétique de l'anse,0,aucun,4,1,0
+INT_00992,0,aucune,aucune,aucune,aucune,0,1,immunosuppresseurs (azathioprine/ciclosporine),1,0,0,1,lévothyroxine,hormone thyroïdienne,0,aucun,1,0,0
+INT_00993,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,1,amiodarone,antiarythmique classe III,1,amiodarone,3,0,0
+INT_00994,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,méthotrexate | clopidogrel,antiagrégant plaquettaire | immunosuppresseur/DMARD,1,méthotrexate,5,0,0
+INT_00995,0,aucune,aucune,aucune,aucune,0,2,corticothérapie longue durée (>6 mois) | antirétroviraux (cART),0,0,0,2,atorvastatine | oméprazole,hypolipémiant statine | IPP,0,aucun,3,0,0
+INT_00996,1,sulfamides,sulfamides: éruption cutanée maculo-papuleuse,antibiotique,modérée,0,0,aucun,0,0,0,3,furosémide | amlodipine | ramipril,antihypertenseur IEC | diurétique de l'anse | antihypertenseur ICC,0,aucun,4,1,0
+INT_00997,1,aluminium,aluminium: granulome au site injection,adjuvant vaccinal,légère,0,0,aucun,0,0,0,1,oméprazole,IPP,0,aucun,1,0,0
+INT_00998,0,aucune,aucune,aucune,aucune,0,0,aucun,0,0,0,2,amiodarone | amlodipine,antiarythmique classe III | antihypertenseur ICC,1,amiodarone,4,0,0
+INT_00999,1,gélatine,gélatine: urticaire/angioedème,excipient vaccinal,modérée,0,0,aucun,0,0,0,4,atorvastatine | ramipril | clopidogrel | furosémide,antihypertenseur IEC | hypolipémiant statine | antiagrégant plaquettaire | diurétique de l'anse,0,aucun,7,1,0
